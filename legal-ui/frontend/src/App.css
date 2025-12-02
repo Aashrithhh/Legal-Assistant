@@ -1,0 +1,138 @@
+.app-root {
+  min-height: 100vh;
+  background-color: #f3f4f6;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.app-container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+/* Left and right panels */
+.left-panel,
+.right-panel {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.left-panel {
+  width: 50%;
+  border-right: 1px solid #e5e7eb;
+}
+
+.right-panel {
+  width: 50%;
+  background-color: #f9fafb;
+}
+
+.panel-title {
+  margin: 0 0 16px 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #111827;
+}
+
+/* Form sections */
+.form-section {
+  margin-bottom: 16px;
+}
+
+.field-label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #374151;
+}
+
+.text-area {
+  width: 100%;
+  min-height: 80px;
+  padding: 8px 10px;
+  border-radius: 4px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+  resize: vertical;
+}
+
+.text-area:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 1px #2563eb33;
+}
+
+.file-input {
+  display: block;
+}
+
+.hint {
+  display: block;
+  margin-top: 4px;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.required-text {
+  margin-top: 4px;
+  font-size: 12px;
+  color: #b91c1c;
+}
+
+.file-list {
+  margin-top: 8px;
+  padding-left: 20px;
+  font-size: 13px;
+}
+
+/* Button */
+.submit-btn {
+  width: 100%;
+  margin-top: 12px;
+  padding: 10px 16px;
+  border-radius: 4px;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.submit-btn:disabled {
+  background-color: #9ca3af;
+  cursor: default;
+}
+
+/* Right panel box */
+.response-box {
+  margin-top: 4px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+  min-height: 500px;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.response-text {
+  white-space: pre-wrap;
+  font-size: 14px;
+  color: #111827;
+}
+
+.placeholder-text {
+  color: #9ca3af;
+  font-style: italic;
+  font-size: 14px;
+}
