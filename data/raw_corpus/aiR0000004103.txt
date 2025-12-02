@@ -1,0 +1,66 @@
+﻿William Davis | Francis Ham:
+[2017-07-14T10:04:00-05:00] Francis Ham thumbsup.
+[2017-07-14T10:55:01-05:00] Francis Ham Hey Will, running a bit late due to a personal emergency. Can we reschedule the meeting for later this afternoon?
+[2017-07-14T10:56:00-05:00] William Davis No problem, Francis. I hope everything is okay. How about we meet up at 3 pm instead?
+[2017-07-14T10:58:27-05:00] Francis Ham That works for me. Thanks for understanding, Will.
+[2017-07-14T14:00:00-05:00] Francis Ham Hey Will, I’ve got some preliminary data back on the new campaign. We should go over it when you have a chance.
+[2017-07-14T14:00:00-05:00] Francis Ham Sorry, is your office on the 3rd or 4th floor?
+[2017-07-14T14:00:00-05:00] Francis Ham yo wassup Will, u got a min?
+[2017-07-14T14:02:03-05:00] Francis Ham yo Will, u seen this new TED Talk? its lit
+[2017-07-14T14:03:00-05:00] Francis Ham good meeting with u, thx for meeting w me. we rly need 2 make this website modern and fast if we want 2 compete.
+[2017-07-14T14:03:00-05:00] William Davis Sure, I’ve got some time now if you can come down to my office.
+[2017-07-14T14:03:00-05:00] William Davis Hey Francis, no I havent! Whats it about?
+[2017-07-14T14:04:01-05:00] Francis Ham Its about the future of automation and AI. I think we could def use some of this stuff in our biz
+[2017-07-14T14:05:04-05:00] Francis Ham For sure. Can we do Wednesday at 10AM?
+[2017-07-14T14:05:23-05:00] William Davis Interesting. Do you want to schedule a meeting to discuss how we can apply this to our operations?
+[2017-07-14T14:06:01-05:00] William Davis Sounds good, Ill put it on my calendar.
+[2017-07-14T14:06:03-05:00] William Davis Sure Francis, whats up?
+[2017-07-14T14:07:02-05:00] Francis Ham Great! I think theres a lot of potential for automation in our warehouse and inventory systems.
+[2017-07-14T14:07:06-05:00] Francis Ham just wanted to get ur thoughts on the publicity event yesterday
+[2017-07-14T14:08:04-05:00] William Davis Absolutely. I think we should also look into automating our customer service and support processes.
+[2017-07-14T14:08:09-05:00] William Davis Overall, I think it went well. The turnout was great and our social media engagement was through the roof.
+[2017-07-14T14:09:01-05:00] Francis Ham Yes! We could use AI to help customers with basic issues and free up our reps to handle more complicated requests.
+[2017-07-14T14:10:01-05:00] Francis Ham yea I saw those numbers, looks like we made a splash
+[2017-07-14T14:11:01-05:00] William Davis Thats exactly what I was thinking. Well discuss it more in detail on Wednesday. See you then!
+[2017-07-14T14:11:03-05:00] Francis Ham Beauty, catch you then
+[2017-07-14T14:12:00-05:00] Francis Ham btw, did u see Jills post on FB? She was raving about our presentation
+[2017-07-14T14:13:11-05:00] William Davis Yes, I did. Im glad the audience enjoyed it.
+[2017-07-14T14:14:12-05:00] Francis Ham awesome, gotta love a good review!
+[2017-07-14T14:16:08-05:00] William Davis Agreed. With that kind of positive feedback, I think we can expect an increase in business.
+[2017-07-14T14:18:13-05:00] Francis Ham thats what we like to hear, thanks Will!
+[2017-07-14T14:20:16-05:00] Francis Ham just wanted to make sure everyone was on the same page
+[2017-07-14T14:20:16-05:00] Francis Ham thanks for the quick chat!
+[2017-07-14T14:21:02-05:00] William Davis No problem, always happy to discuss our successes.
+[2017-07-14T14:31:01-05:00] William Davis Good meeting with you too. I agree, the website needs an update to keep up with competitors. We should discuss the budget for this as well.
+[2017-07-14T14:32:02-05:00] Francis Ham budget is tight, im thinking of either hiring a freelance designer or going thru an agency. which do u think would b better?
+[2017-07-14T14:33:00-05:00] William Davis It depends on the specifics. If we go with an agency, we can get a full-service package that includes design, coding, and maintenance. But it might be more expensive than a freelancer.
+[2017-07-14T14:34:00-05:00] Francis Ham K, omw.
+[2017-07-14T14:52:00-05:00] William Davis 4th floor, suite 420.
+[2017-07-14T15:01:00-05:00] Francis Ham Hey Will! Sure, Im free now. What are these magical tips you have?
+[2017-07-14T15:02:00-05:00] Francis Ham Ok, here. Whoa, cool office! Is that a signed baseball??
+[2017-07-14T15:02:00-05:00] William Davis Yes, I actually use the Pomodoro technique. Its a time management method where you work for 25 minutes and then take a 5-minute break. After four cycles, you take a longer break. It helps with productivity and time management, and there are plenty of apps that you can use. Do you want me to send you some links?
+[2017-07-14T15:03:00-05:00] William Davis No problem, Francis! Talk to you soon.
+[2017-07-14T15:04:00-05:00] William Davis Hey Francis, just following up on our meeting. Did you get a chance to try out any of the time management tips I gave you?
+[2017-07-14T15:04:00-05:00] Francis Ham So, if we allocate the same budget as last quarter, we can expect returns to be about 15% higher.
+[2017-07-14T15:12:00-05:00] William Davis Okay so first I make a to-do list every day with everything that needs to get done, and then I prioritize it based on importance and deadline. That way I dont waste time on unimportant tasks. One other trick I have is scheduling my tasks on a calendar, so I know how long each task should take and I can adjust my schedule accordingly.
+[2017-07-14T15:18:00-05:00] Francis Ham Those are great tips Will! Ill definitely try it out. I always feel like Im drowning in work. Do you use any apps or tools to keep track of your time or tasks?
+[2017-07-14T15:23:00-05:00] William Davis Ha, yeah, from when the Cubs won the Series. Let’s look at that data.
+[2017-07-14T15:24:00-05:00] Francis Ham Thats exactly what I need! Please do. I appreciate you sharing your tips with me, Will. Lets see how we can implement them in our company to be more productive.
+[2017-07-14T15:28:00-05:00] William Davis Of course, anytime! Let me know if theres anything else I can help you with. And if you want, we can schedule another meeting to go over the implementation process further.
+[2017-07-14T15:30:02-05:00] William Davis Francis, just wanted to check in again. Were making good progress on the volunteer project!
+[2017-07-14T15:32:00-05:00] Francis Ham That would be awesome, Will. Lets do that. Thanks again!
+[2017-07-14T15:35:01-05:00] Francis Ham Good to hear, Will! exploding_head
+[2017-07-14T15:36:04-05:00] William Davis Thanks, were really excited about it. By the way, have you heard of the charity Water.org? I was thinking of making a donation soon.
+[2017-07-14T15:39:12-05:00] Francis Ham Yeah, they do great work! Ive donated to them in the past too. thumbsup
+[2017-07-14T15:45:12-05:00] Francis Ham I think we should emphasize our companys experience in dealing with similar projects during the presentation tomorrow. What do you think, Will?
+[2017-07-14T15:47:00-05:00] Francis Ham Hey Will! Yeah, I have been using the Pomodoro technique and it has been amazing so far. Ive been able to accomplish so much more in my day. Thanks again for showing me that method.
+[2017-07-14T15:47:42-05:00] William Davis Agreed. We should also emphasize our pricing strategy and what makes us different from our competitors.
+[2017-07-14T15:49:18-05:00] Francis Ham Definitely. Ill make sure to incorporate that into the presentation. Cant wait to see their faces when we blow them away tomorrow 😜
+[2017-07-14T15:52:00-05:00] Francis Ham Absolutely. Lets schedule a meeting with the team to teach them these practical applications. Thanks for thinking ahead, Will.
+[2017-07-14T15:58:00-05:00] Francis Ham How about next Thursday at 10 AM? Ill send out the invitation to everyone.
+[2017-07-14T15:58:00-05:00] Francis Ham Plus, we’re using geofencing to hit the coffee shops and gyms that our target demographic is most likely to be at.
+[2017-07-14T15:59:00-05:00] William Davis Sounds like a plan. Talk to you soon!
+[2017-07-14T16:02:00-05:00] William Davis Sounds like a solid strategy. Let’s take a closer look at the numbers and discuss what adjustments we may want to make.
+[2017-07-14T16:04:00-05:00] Francis Ham For sure. 💪
+[2017-07-14T21:53:00-05:00] William Davis Francis, we have an issue. Two of our workers, Arvind and Muhammad, began discussing reaching out to the local media. They have been emailing and identified the pay cuts and lack of citizenship options as their primary complaints. Attached is a screen shot for your review. We cannot afford negative press at the moment. [screenshot attached]
+[2017-07-14T22:03:00-05:00] William Davis Hello Francis, just wanted to follow-up regarding the situation with Muhammad and Arvind. Did you have any suggestions on how to mitigate this? I am concerned that if they contact the press, it may reflect poorly on our companys reputation and we may see a further reduction in revenue streams.

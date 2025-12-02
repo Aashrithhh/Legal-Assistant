@@ -1,0 +1,15 @@
+﻿From    : Arvind Patel [apatel@bigthorium.com]
+Sent    : 6/13/2017 10:59:48 PM
+To      : Sebastian Turner [sturner@bigthorium.com]
+CC      : Emily Thompson [ethompson@bigthorium.com]
+Subject : Data Encryption and Backup
+
+Dear Sebastian and Emily,
+
+I hope you both are fine! I wanted to discuss the data management and cybersecurity measures for our upcoming power plant project. As you both know, securing the plant's data is of the utmost importance, so we need to make sure that our data management practices are top-notch.
+
+Can we discuss some best practices for data encryption and providing a secure backup system? I would like to suggest that we store our encrypted backups on the cloud rather than any physical location. What are your thoughts on this?
+
+Best regards,
+Arvind Patel
+Welder/Fitter/Fabricator

@@ -1,0 +1,11 @@
+﻿Lillian Hayes | Isla West:
+[2017-08-05T14:03:00-05:00] Lillian Hayes Hey Isla! You have a second to chat about the new construction project?
+[2017-08-05T14:32:01-05:00] Isla West Of course! Whats up, Lillian?
+[2017-08-05T14:34:21-05:00] Lillian Hayes Well, were still in the planning stages, but Im a bit concerned about safety. I think we need to get you involved early in the process.
+[2017-08-05T14:36:22-05:00] Isla West Thats definitely a good idea. Safety is the top priority in any construction project. What do you have in mind?
+[2017-08-05T14:38:01-05:00] Lillian Hayes I was hoping you could take a look at our initial plans and let me know if there are any changes we should make from a safety standpoint.
+[2017-08-05T14:40:22-05:00] Isla West Absolutely, I can take a look at those plans right away.
+[2017-08-05T14:42:01-05:00] Lillian Hayes Thanks, Isla! Ill get them over to you shortly.
+[2017-08-05T14:43:00-05:00] Isla West No problem, let me know if you need anything else.
+[2017-08-05T16:00:00-05:00] Lillian Hayes Here are the plans as promised. Let me know if you have any questions or concerns.
+[2017-08-05T16:02:03-05:00] Isla West Thanks, Lillian! Ill take a look and get back to you soon.

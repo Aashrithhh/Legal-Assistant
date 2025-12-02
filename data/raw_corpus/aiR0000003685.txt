@@ -1,0 +1,139 @@
+﻿Cheryl Thompson | Douglas Wood | Jessica Porter | Keith Ross | Heather Stewart:
+[2017-07-10T09:00:00-05:00] Jessica Porter Good morning HR team! Today we are welcoming our new employee, Emily Thompson! Lets give her a warm welcome and introduce ourselves.
+[2017-07-10T09:00:00-05:00] Douglas Wood Good morning Cheryl! Do you have time to discuss the investigation progress?
+[2017-07-10T09:00:01-05:00] Keith Ross Hey yall, coffee maker is BROKEN again. Anyone know how to fix it? #needmycoffee
+[2017-07-10T09:01:00-05:00] Jessica Porter Meeting starting in 5 minutes everyone!
+[2017-07-10T09:01:00-05:00] Keith Ross Thats all folks! Thanks!
+[2017-07-10T09:02:13-05:00] Douglas Wood Good morning Emily. We are excited to have you join our team. Im Douglas, and I oversee HR operations.
+[2017-07-10T09:02:17-05:00] Cheryl Thompson Hey Doug! I sure do, whats up?
+[2017-07-10T09:02:27-05:00] Cheryl Thompson ugh not again Im coming to work late today cuz of my dentist appt so IDK if I can help
+[2017-07-10T09:03:02-05:00] Keith Ross Hey Emily! Keith here, HR Assistant. Let me be the first one to tell you, youre gonna love working here!
+[2017-07-10T09:03:04-05:00] Keith Ross No worries, Cheryl. Thanks for responding. Heather, bummer. I hope its a short meeting!
+[2017-07-10T09:03:14-05:00] Heather Stewart Nope, sorry, Im at a meeting all morning
+[2017-07-10T09:04:04-05:00] Cheryl Thompson Welcome Emily! Cheryl here, the HR Team Manager. If you need anything at all, feel free to reach out.
+[2017-07-10T09:05:03-05:00] Heather Stewart Welcome to the team, Emily. Im Heather, the VP of Human Resources. Were all very happy to have you on board.
+[2017-07-10T09:05:03-05:00] Douglas Wood Sorry, Im swamped with work this AM. Good luck!
+[2017-07-10T09:05:12-05:00] Keith Ross Hey Cheryl, did you find someone to be on-call for the events technical difficulties?
+[2017-07-10T09:05:32-05:00] Douglas Wood Were making good progress on the investigation. Currently speaking with witnesses to gather all the necessary information. Should be wrapping things up soon.
+[2017-07-10T09:06:01-05:00] Jessica Porter Thanks for the warm welcome HR team! Emily, we have a few things planned today to help you settle in. Lets all meet in the conference room in 15 minutes to kick off the welcome discussion.
+[2017-07-10T09:06:01-05:00] Cheryl Thompson Nope, still looking. Any suggestions?
+[2017-07-10T09:06:32-05:00] Keith Ross Thanks, Doug. Cheryl, were you able to fix it the last time?
+[2017-07-10T09:07:01-05:00] Keith Ross What about Mike from IT? He seems to be a good fit.
+[2017-07-10T09:07:04-05:00] Cheryl Thompson yeah it was a simple fix I just had to clean the water filter. but I wont be in for another hour or so..
+[2017-07-10T09:08:23-05:00] Cheryl Thompson I was thinking the same thing! Just sent him a message.
+[2017-07-10T09:08:53-05:00] Jessica Porter I dont know how to fix it but I could bring in some iced coffee for anyone who wants..
+[2017-07-10T09:09:03-05:00] Douglas Wood What are the main topics youd like to cover, Jessica?
+[2017-07-10T09:10:09-05:00] Keith Ross Cheryl, awesome. Thanks for letting me know. Jessica, thanks for the offer, much appreciated.
+[2017-07-10T09:10:42-05:00] Jessica Porter Mainly the company culture, and how we can all work together to achieve our goals. Ill also introduce Emily to the teams ongoing projects and future plans.
+[2017-07-10T09:11:00-05:00] Keith Ross Looks like we have a solution. Cheryl can fix it once she gets in. In the meantime, Jessica is bringing some iced coffee for the squad!
+[2017-07-10T09:11:01-05:00] Heather Stewart Sounds great, Jessica. Lets make sure Emily feels welcome and comfortable.
+[2017-07-10T09:11:08-05:00] Cheryl Thompson He said yes! Thanks for the suggestion, Keith.
+[2017-07-10T09:11:57-05:00] Cheryl Thompson Do we have any welcome gifts planned for Emily?
+[2017-07-10T09:12:02-05:00] Jessica Porter Yes, we have a welcome basket ready with company swag and treats for Emily.
+[2017-07-10T09:12:34-05:00] Keith Ross No problem! I knew hed be up to it. Do you want me to send out a company-wide email about the change?
+[2017-07-10T09:13:00-05:00] Keith Ross Sweet! Cant wait to see Emilys reaction.
+[2017-07-10T09:13:04-05:00] Cheryl Thompson Sure, go ahead and send it out. And throw in a couple of dancing emojis to make it fun.
+[2017-07-10T09:15:21-05:00] Keith Ross On it! 💃🕺
+[2017-07-10T09:18:02-05:00] Cheryl Thompson Hahaha, love it! Thanks again, Keith. Youre the best!
+[2017-07-10T09:19:34-05:00] Keith Ross No problem, happy to help! Let me know if anything else comes up. 👍
+[2017-07-10T09:22:07-05:00] Cheryl Thompson Actually, would you mind creating an incident report for this and sending it to me for the records?
+[2017-07-10T09:23:04-05:00] Keith Ross Sure thing, Cheryl. Ill get that to you ASAP.
+[2017-07-10T09:26:22-05:00] Cheryl Thompson Youre a lifesaver, Keith. 👏
+[2017-07-10T09:28:14-05:00] Keith Ross Anytime. Have a great day! 😎
+[2017-07-10T09:29:41-05:00] Cheryl Thompson You too! 🤗
+[2017-07-10T10:01:00-05:00] Heather Stewart Thank you, Doug. Great job getting the milk situation sorted out!
+[2017-07-10T10:01:00-05:00] Cheryl Thompson Thats great news, Keith! Thanks for letting us know. Do you need any assistance from us in preparing for the meeting?
+[2017-07-10T10:01:00-05:00] Keith Ross hey yall! whats been good this morning?
+[2017-07-10T10:01:00-05:00] Douglas Wood Yeah, just let us know if you need any help putting together an action plan. We want to make sure everyone feels heard and that we are addressing their concerns efficiently.
+[2017-07-10T10:02:00-05:00] Douglas Wood Ha, glad to hear it, Cheryl! Just a quick reminder though, lets all try to keep our language professional in the work chat.
+[2017-07-10T10:02:00-05:00] Keith Ross Thanks, Doug. Ill definitely reach out to you if I need any assistance. Right now, Im just reviewing the complaint forms and trying to come up with a strategy to resolve the conflicts.
+[2017-07-10T10:03:00-05:00] Cheryl Thompson You got it, Dougie. 😉
+[2017-07-10T10:03:00-05:00] Cheryl Thompson Sounds good, Keith. Lets touch base again after the meeting on Thursday.
+[2017-07-10T10:04:00-05:00] Douglas Wood Thanks, Cheryl. If theres nothing more to discuss, lets get back to work. Have a great Monday everyone!
+[2017-07-10T10:12:00-05:00] Cheryl Thompson YES! No more dry Lucky Charms for me. 💃🏻
+[2017-07-10T10:16:22-05:00] Douglas Wood Just reviewing HR policies and procedures. Fun times.
+[2017-07-10T10:17:04-05:00] Keith Ross aww, cmon Doug, dont tell me you dont love diving into those policies? haha
+[2017-07-10T10:18:00-05:00] Jessica Porter lol Keith, dont we all!
+[2017-07-10T10:22:00-05:00] Heather Stewart I second that, thank you Doug.
+[2017-07-10T11:00:00-05:00] Douglas Wood Great job, Keith! Is there anything else that we should do to ensure that the plan is effectively implemented?
+[2017-07-10T11:00:00-05:00] Keith Ross Just had the meeting, guys. I presented a plan that addresses the complaints raised.
+[2017-07-10T11:00:00-05:00] Heather Stewart Have a great Monday everyone!
+[2017-07-10T11:01:00-05:00] Keith Ross Yeah, I was thinking that it might be helpful to schedule training for the employees on conflict resolution. This could help prevent similar issues from arising in the future.
+[2017-07-10T11:01:00-05:00] Cheryl Thompson I like your idea, Keith! Lets discuss further in our next meeting.
+[2017-07-10T11:02:00-05:00] Douglas Wood Agreed. I think this could also be beneficial for managers and team leaders.
+[2017-07-10T11:02:00-05:00] Keith Ross Definitely, Doug. Ill put together a proposal for the training and send it to both of you for review.
+[2017-07-10T11:03:00-05:00] Keith Ross No problem, Doug. Ill send out the proposal before our next meeting.
+[2017-07-10T11:25:01-05:00] Heather Stewart Hi team, how is everyone coming along with the policies and procedures review?
+[2017-07-10T11:29:00-05:00] Douglas Wood Thank you, Keith. I think this is a great step forward for our team.
+[2017-07-10T12:01:00-05:00] Douglas Wood Sounds good to me. Maybe we can meet up there and hang out?
+[2017-07-10T12:02:03-05:00] Douglas Wood Happy Monday Cheryl! How was your weekend?
+[2017-07-10T12:03:04-05:00] Cheryl Thompson Hey Doug! My weekend was great, how about you?
+[2017-07-10T12:05:01-05:00] Douglas Wood It was pretty good, nothing too exciting. Do you have any recommendations for fun local activities?
+[2017-07-10T12:07:03-05:00] Cheryl Thompson I think everythings going pretty well. Most of the changes we proposed last year have been implemented.
+[2017-07-10T12:08:01-05:00] Douglas Wood Thats great, but we still need to check for any gaps or inconsistencies to make sure everythings up to date.
+[2017-07-10T12:08:02-05:00] Cheryl Thompson Yes! Have you tried the food truck festival at the park? Its happening this Saturday and therell be live music, too.
+[2017-07-10T12:10:01-05:00] Douglas Wood That sounds perfect, Ill definitely check it out. Do you know what time the music starts?
+[2017-07-10T12:12:01-05:00] Cheryl Thompson The music starts at 6 pm, but I suggest getting there early to try some of the food before its all gone!
+[2017-07-10T12:16:03-05:00] Cheryl Thompson Sure, that sounds like a plan. Lets meet up at the entrance at 5 pm?
+[2017-07-10T12:18:00-05:00] Douglas Wood Perfect, Ill see you there at 5. Thanks for the recommendation and for making plans! thumbsup
+[2017-07-10T13:00:00-05:00] Jessica Porter Sounds like a plan. Ill work on creating a posting schedule and make sure everything is approved by you before posting.
+[2017-07-10T13:00:00-05:00] Douglas Wood Absolutely! Lets showcase their accomplishments and why they love working here.
+[2017-07-10T13:01:00-05:00] Douglas Wood Hi Jessica, I was thinking about creating a social media campaign to promote our open job positions. Do you have any ideas on how we can do this effectively?
+[2017-07-10T13:02:00-05:00] Jessica Porter Sure thing, I can send that over to you today. Also, we should consider doing a social media takeover with one of our employees to showcase a typical workday at our company.
+[2017-07-10T13:03:00-05:00] Douglas Wood Excellent idea! Who do you think would be a good candidate for the takeover?
+[2017-07-10T13:04:00-05:00] Douglas Wood That sounds perfect. Lets have her take over our Instagram account for a day.
+[2017-07-10T13:04:00-05:00] Jessica Porter Sounds good! Ill reach out to her and let her know. Should we also create social media posts highlighting our current employees?
+[2017-07-10T13:18:00-05:00] Jessica Porter Hi Douglas, that sounds like a great idea. I was thinking of creating a video showcasing our work culture and mentioning the open positions. What do you think?
+[2017-07-10T13:21:00-05:00] Douglas Wood I like that idea, we can put it on our LinkedIn and Facebook pages. Could you create a list of things we should showcase in the video?
+[2017-07-10T13:33:00-05:00] Jessica Porter I was thinking of having Jane take over. Shes very active on social media and is always posting about her work projects.
+[2017-07-10T14:00:00-05:00] Douglas Wood Good afternoon everyone. Were here to discuss the companys attendance policy. Please bring up any suggestions or concerns.
+[2017-07-10T14:00:00-05:00] Douglas Wood Sounds great. Thanks for your help, Jessica!
+[2017-07-10T14:00:00-05:00] Keith Ross Hey Jess, about the catering, do you think we should go with barbecue or sushi?
+[2017-07-10T14:02:03-05:00] Keith Ross Hey Jess, did Cheryl say what she wanted to talk about today?
+[2017-07-10T14:03:00-05:00] Cheryl Thompson Had a great meeting with you guys! Just wanted to touch base and see if yall had any questions/concerns about the updated diversity policy?
+[2017-07-10T14:03:00-05:00] Jessica Porter Agreed. Thanks CT!
+[2017-07-10T14:03:00-05:00] Jessica Porter Yeah, shes briefing us on the ThunderBolt Visit on Monday. Make sure youre there by 2 pm.
+[2017-07-10T14:06:19-05:00] Keith Ross Oh yeah, almost forgot about that. Is it just us or the whole team?
+[2017-07-10T14:06:27-05:00] Jessica Porter Thanks for the training, Cheryl. I think its great that were taking steps to increase diversity in our workplace!
+[2017-07-10T14:08:04-05:00] Jessica Porter Whole team. You might wanna grab a notepad, assignments might get reassigned.
+[2017-07-10T14:08:12-05:00] Keith Ross Same here, CT. ✊🏿
+[2017-07-10T14:12:00-05:00] Cheryl Thompson Glad to hear it, guys! Remember, if you need any more information on the policy or have questions, just let me know!
+[2017-07-10T14:14:23-05:00] Keith Ross We should consider adding more sick days. People get sick all the time and we dont want them coming in when theyre contagious.
+[2017-07-10T14:15:01-05:00] Cheryl Thompson Hey guys, thanks for being here on short notice. Alright, so the ThunderBolt Visit on Monday is a big opportunity for us to showcase our teams capabilities.
+[2017-07-10T14:15:03-05:00] Cheryl Thompson So Keith, Im gonna need you to handle the catering and Jessica, I need you to work on organizing the presentation.
+[2017-07-10T14:15:23-05:00] Jessica Porter Actually, CT, could you clarify something for me? What are the guidelines for hiring underrepresented groups?
+[2017-07-10T14:16:00-05:00] Keith Ross Wow, okay. Can do.
+[2017-07-10T14:16:01-05:00] Cheryl Thompson Valid point Keith! We dont want a whole team getting sick because someone felt obligated to come in.
+[2017-07-10T14:16:33-05:00] Jessica Porter Great, will get working on it Cheryl!
+[2017-07-10T14:18:11-05:00] Cheryl Thompson Sure thing, JP. The policy suggests that we prioritize hiring in underrepresented groups for positions that are currently lacking diversity.
+[2017-07-10T14:20:37-05:00] Keith Ross That makes sense
+[2017-07-10T14:22:00-05:00] Jessica Porter Do we have any themes we need to follow for the presentation?
+[2017-07-10T14:23:04-05:00] Jessica Porter Okay, got it. Thanks for the clarification, CT!
+[2017-07-10T14:24:01-05:00] Cheryl Thompson Yes, we wanna make sure ThunderBolt sees our team is innovative and cost-effective. Just be creative.
+[2017-07-10T14:25:04-05:00] Jessica Porter How about adding a section on bereavement leave?
+[2017-07-10T14:25:11-05:00] Cheryl Thompson Anytime, JP. And dont forget, well be reviewing current policies next meeting.
+[2017-07-10T14:26:23-05:00] Keith Ross Or personal days for mental health.
+[2017-07-10T14:27:03-05:00] Keith Ross My moms a graphic designer, can I ask her to design our PPT slides?
+[2017-07-10T14:27:37-05:00] Douglas Wood Those are great suggestions. Lets make note of all of them and come back to this later to update the policy.
+[2017-07-10T14:27:54-05:00] Keith Ross Sounds good to me
+[2017-07-10T14:28:01-05:00] Jessica Porter Sure thing, Keith. Just make sure to send it to Cheryl and I for approval before finalizing it.
+[2017-07-10T14:32:49-05:00] Cheryl Thompson Sounds good to me!
+[2017-07-10T14:33:02-05:00] Cheryl Thompson Sounds good, Keith. Lets make sure were all on the same page. Now lets move on to catering.
+[2017-07-10T14:35:01-05:00] Cheryl Thompson 👍🏾
+[2017-07-10T14:43:14-05:00] Keith Ross Bombbbbbbb idea to make company an even better place!
+[2017-07-10T14:45:03-05:00] Cheryl Thompson Alright, I think thats all for todays meeting. Good job, everyone!
+[2017-07-10T14:45:03-05:00] Cheryl Thompson Yesss agreed!
+[2017-07-10T14:57:03-05:00] Jessica Porter BBQ sounds great to me, but we should probably take a poll. What do you think, Cheryl? BBQ or sushi for the ThunderBolt Visit?
+[2017-07-10T14:59:00-05:00] Cheryl Thompson Hmm, BBQ is a safer option. Lets stick to that.
+[2017-07-10T15:01:00-05:00] Keith Ross Agreed. That sounds like a practical way to make our workplace more eco-friendly.
+[2017-07-10T15:01:00-05:00] Heather Stewart Great idea, Jessica! Im glad to see the team is on board with this. Cheryl, can you make sure we have the necessary supplies by Friday?
+[2017-07-10T15:02:00-05:00] Cheryl Thompson No problem, Heather. Ill take care of it.
+[2017-07-10T15:07:00-05:00] Cheryl Thompson Im down with starting a compost bin. We can just use some of the leftover boxes we have lying around here.
+[2017-07-10T15:20:48-05:00] Jessica Porter Just checking in, any progress on the attendance policy?
+[2017-07-10T15:22:01-05:00] Douglas Wood Yes! Weve added personal days for mental health and increased sick days. Ill make sure the new policy is shared with everyone shortly.
+[2017-07-10T15:22:04-05:00] Cheryl Thompson Thats great news. Thank you for the update!
+[2017-07-10T15:27:12-05:00] Keith Ross 😎
+[2017-07-10T16:00:00-05:00] Keith Ross 👍
+[2017-07-10T16:00:00-05:00] Jessica Porter Just a reminder, lets make sure we start the compost bin this week so we can start reducing our waste!
+[2017-07-10T17:03:00-05:00] Cheryl Thompson Douglas, dont forget to bring a chair or blanket to sit on. I heard it can get pretty crowded.
+[2017-07-10T17:31:04-05:00] Douglas Wood Thanks for the heads up, Ill bring a blanket. See you tomorrow! bangbang

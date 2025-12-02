@@ -1,0 +1,40 @@
+﻿From    : Arvind Patel [apatel@bigthorium.com]
+Sent    : 2/15/2017 4:56:40 PM
+To      : Keith Ross [kross@bigthorium.com]
+CC      : Brijesh Mathur [bmathur@bigthorium.com]
+Subject : Power Plant Inspection
+
+Dear Keith and Brijesh,
+
+I am writing to remind you both about the upcoming inspection by the International Atomic Energy Agency (IAEA) on our new power plant. As you may already know, the inspection will be held next week to ensure that we comply with their guidelines and regulation.
+
+Keith, can you please ensure that all the necessary documentation is prepared for the inspection and available for review by the IAEA representatives? In addition, please remind all the site workers to maintain high safety standards throughout the inspection.
+
+Brijesh, please double-check all the welding and fabrication work to ensure we comply with IAEA guidelines. We cannot afford to have any defects that prevent us from passing the inspection.
+
+Thank you for your cooperation.
+
+Best Regards,
+Arvind Patel
+Welder/Fitter/Fabricator
+
+
+ISO 8601: 2017-02-16T08:20:50-0500
+Date: Thu, 16 Feb 2017 08:20:50 (EST)
+From: Keith Ross <kross@bigthorium.com>
+To: Arvind Patel <apatel@bigthorium.com>
+CC: Brijesh Mathur <bmathur@bigthorium.com>
+Subject: Re: Power Plant Inspection
+
+Dear Arvind and Brijesh,
+
+Thank you for reminding us about the inspection. All the necessary documentation has been prepared, and we will ensure that it is available for review by the IAEA representatives.
+
+Additionally, we have reminded all the workers on the site to maintain high safety standards to guarantee a successful inspection.
+
+Arvind, Brijesh confirmed that all the welding and fabrication work complies with the IAEA guidelines.
+
+Thanks again.
+
+Best Regards,
+Keith Ross

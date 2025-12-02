@@ -1,0 +1,10 @@
+﻿Gabriel Torres | Abigail Rogers:
+[2017-11-30T13:01:00-05:00] Abigail Rogers Hey Gabriel, do you have a sec to chat about resource allocation for the upcoming project?
+[2017-11-30T13:12:01-05:00] Gabriel Torres hey wassup, im free, wanna come over to my office?
+[2017-11-30T13:13:01-05:00] Abigail Rogers Sounds good, Im on my way. Do you have the latest projections for staffing needs?
+[2017-11-30T13:14:22-05:00] Gabriel Torres yeah heres the doc *attachment: staffing_needs.xlsx*
+[2017-11-30T13:15:29-05:00] Abigail Rogers This looks good, but I think we need a few additional resources for the last phase of the project. What do you think?
+[2017-11-30T13:18:01-05:00] Gabriel Torres totally agree, last phase is always a killer. Do you have anyone in mind?
+[2017-11-30T13:19:02-05:00] Abigail Rogers I was thinking of reaching out to John from the IT department, he has strong experience in the software well be using.
+[2017-11-30T13:21:01-05:00] Gabriel Torres yeah John sounds like a good pick, can you send me his contact info so I can reach out and discuss with him?
+[2017-11-30T13:22:01-05:00] Abigail Rogers No problem, sending you his details now. Also, we need to ensure the schedule is aligned with the additional resources before the next meeting.

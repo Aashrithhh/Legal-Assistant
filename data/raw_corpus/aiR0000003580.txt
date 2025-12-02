@@ -1,0 +1,145 @@
+﻿Christopher Brooks | Stephanie Allen | William Davis | Francis Ham | Martin White:
+[2017-07-14T09:00:00-05:00] William Davis Hey Stephanie, ready for the training session on quality cost analysis?
+[2017-07-14T09:00:00-05:00] Stephanie Allen gud mrning Will! Rdy for our training session on quality cost analysis?
+[2017-07-14T09:01:01-05:00] Stephanie Allen yeppp im pumpddd
+[2017-07-14T09:02:00-05:00] Stephanie Allen not yet but I will in a bit - right after this training session
+[2017-07-14T09:02:13-05:00] William Davis Good morning, Stephanie. Yes, Im more than ready. Looking forward to it!
+[2017-07-14T09:05:26-05:00] Stephanie Allen awsum! Well focus on how to use cost data to evaluate quality improvements.
+[2017-07-14T09:06:03-05:00] William Davis Great, lets start off by discussing the importance of using cost data to evaluate quality improvements.
+[2017-07-14T09:07:04-05:00] Stephanie Allen brb, gotta grab notepad and pencils...
+[2017-07-14T09:10:34-05:00] William Davis Sounds like an important topic. Lets make sure we have plenty of examples to illustrate our points.
+[2017-07-14T09:11:21-05:00] William Davis No problem, take your time. Just to recap, quality cost analysis helps us identify where we can improve efficiency while reducing costs.
+[2017-07-14T09:12:33-05:00] Stephanie Allen gotcha, taking notes nowww
+[2017-07-14T09:15:02-05:00] William Davis Perfect, now lets discuss how we can use data to identify trends and patterns that can provide insights into cost control and cost reduction opportunities.
+[2017-07-14T09:20:01-05:00] Stephanie Allen thx for the reminder, makes sense bc cost is ur critical KPI hehe!
+[2017-07-14T09:22:04-05:00] William Davis Right, and we want to ensure that we are meeting customer expectations while keeping costs down. Speaking of which, have you had a chance to review the customer feedback reports?
+[2017-07-14T09:28:01-05:00] William Davis Sounds like a plan! Let me know if you have any questions, and definitely let me know when youve reviewed that report.
+[2017-07-14T09:29:22-05:00] Stephanie Allen will do, ty! 👍
+[2017-07-14T10:02:00-05:00] Stephanie Allen ofc! will be available at 1pm
+[2017-07-14T10:02:00-05:00] Stephanie Allen Hey Will, I have to cancel lunch today. Can we talk about the checklist tomorrow?
+[2017-07-14T10:03:00-05:00] William Davis great, talk to you then
+[2017-07-14T10:06:00-05:00] Martin White Sure thing boss, Ill be there
+[2017-07-14T10:22:01-05:00] William Davis No problem, Steph. Lets plan on it. Thanks for letting me know.
+[2017-07-14T11:00:00-05:00] William Davis You guys have to see this video, lol
+[2017-07-14T11:01:00-05:00] Francis Ham Thanks for coming on such a short notice Martin. Ive noticed our sales for the past month have dropped, and Im thinking we need to adjust our prices to stay competitive. What do you think?
+[2017-07-14T11:02:00-05:00] Martin White 5% is aggressive, but I think its the right move. Lets do it and watch the numbers.
+[2017-07-14T11:02:00-05:00] Martin White Hey Francis! Do you have a moment to talk about our pricing strategy?
+[2017-07-14T11:03:00-05:00] Francis Ham Hmmm, Im not sure about that. Can you send me a detailed proposal with the numbers and projections?
+[2017-07-14T11:03:00-05:00] Stephanie Allen hey willy D u ready to talk about that supplier quality thingy???
+[2017-07-14T11:04:00-05:00] Francis Ham 👍
+[2017-07-14T11:06:01-05:00] Christopher Brooks Hi William, afternoon. Is this an appropriate use of work hours?
+[2017-07-14T11:06:03-05:00] Martin White chill Chris, that video will be the highlight of our work day
+[2017-07-14T11:07:12-05:00] Stephanie Allen spk 4 yurself mw, I have work to do lol
+[2017-07-14T11:08:01-05:00] Francis Ham If Will thinks its worth our time, lets give it a look :)
+[2017-07-14T11:10:07-05:00] Francis Ham (video watched)
+[2017-07-14T11:10:12-05:00] William Davis See I told you guys it was hilarious
+[2017-07-14T11:12:02-05:00] Francis Ham (about next meeting) Do you guys have any preference on the date and time?
+[2017-07-14T11:13:04-05:00] Christopher Brooks I believe we should consider the end of the week based on the agenda
+[2017-07-14T11:15:03-05:00] William Davis works for me, what about you Steph?
+[2017-07-14T11:15:42-05:00] Stephanie Allen Yea, we gotta make sure its easy to digest for everyone!
+[2017-07-14T11:16:42-05:00] Stephanie Allen sure, Ill c u then
+[2017-07-14T11:18:00-05:00] Martin White Definitely. We need to make sure we stay competitive and remain profitable. What are you thinking?
+[2017-07-14T11:18:33-05:00] Martin White same. see you later guys!
+[2017-07-14T11:20:09-05:00] William Davis Agreed. Well keep it concise and to the point.
+[2017-07-14T11:22:00-05:00] Francis Ham I was thinking lowering our prices by 5%. Its aggressive, but we need to take action. Thoughts?
+[2017-07-14T11:23:00-05:00] Francis Ham Sure thing, whats up?
+[2017-07-14T11:26:00-05:00] Martin White I was thinking we should consider adjusting prices on our product line. We need to stay competitive.
+[2017-07-14T11:29:00-05:00] Francis Ham Im open to the idea. What are you thinking?
+[2017-07-14T11:30:02-05:00] Christopher Brooks Good morning Stephanie. Are you ready for our call?
+[2017-07-14T11:30:11-05:00] William Davis Ready when you are! Lets do it
+[2017-07-14T11:31:29-05:00] Stephanie Allen Gmornin Chris! Yup all rd 2 go. Fingerscrssd we find smethin usful.
+[2017-07-14T11:32:00-05:00] Martin White I think we should lower prices on our mid-range products by 5% and increase prices on our high-end products by 3%. This would keep us competitive and increase our profit margins.
+[2017-07-14T11:32:02-05:00] Stephanie Allen kk lemme pull up the data 🤔
+[2017-07-14T11:35:07-05:00] Christopher Brooks Yes, lets hope so. Alright, lets get started then.
+[2017-07-14T11:38:00-05:00] Martin White Sure thing, Ill have it to you by the end of the day.
+[2017-07-14T11:41:00-05:00] Francis Ham Sounds good. Lets talk more once you send that over.
+[2017-07-14T11:43:00-05:00] Martin White Will do. Talk soon!
+[2017-07-14T11:57:41-05:00] Stephanie Allen Thx 4 the cl, Chris! Ive gt a few ideas ill rite up & email 2 ya. Whn r u available nxt so we can chat more abt the ptential nxt steps?
+[2017-07-14T12:01:23-05:00] Christopher Brooks Great to hear Stephanie. How does Monday at 10am look for you?
+[2017-07-14T12:03:01-05:00] Stephanie Allen Mon 10 wrks 4 me! I se u then.
+[2017-07-14T12:05:12-05:00] William Davis Anything stand out to you in the data?
+[2017-07-14T12:05:18-05:00] Christopher Brooks Perfect, have a great weekend Stephanie!
+[2017-07-14T12:06:04-05:00] Stephanie Allen U 2 Chris! 😎
+[2017-07-14T12:10:23-05:00] Stephanie Allen lots of doo-doo suppliers 💩 but a few good 1s 🙌
+[2017-07-14T12:11:04-05:00] William Davis 😂 Agreed. We need to incentivize them to improve. Any ideas?
+[2017-07-14T13:02:26-05:00] Francis Ham Hey guys, hope everyones having a good day! So, lets talk about the upcoming presentation. Any concerns or thoughts?
+[2017-07-14T13:03:00-05:00] Martin White Ok, so heres my plan. We could start with the production line by introducing eco-friendly materials.
+[2017-07-14T13:03:12-05:00] Christopher Brooks Well, I think we need to make sure our delivery is polished and professional.
+[2017-07-14T13:04:01-05:00] Stephanie Allen sry boss, dnt wanna bore clients w/ 2 much formality, u kno?
+[2017-07-14T13:04:02-05:00] William Davis Agreed with Chris, we should maintain our standards of professionalism. But we can still keep things interesting with engaging visuals and strong content.
+[2017-07-14T13:05:09-05:00] Francis Ham William, I like that idea of engaging visuals. Stephanie, I dont want it to be too casual. We can balance it out.
+[2017-07-14T13:05:23-05:00] Martin White Hey guys, I wanted to talk to you about an idea I had to reduce waste in our operations. Can we meet to discuss?
+[2017-07-14T13:05:34-05:00] Stephanie Allen idk maybe discounts on supplier fees for better quality scores 🤔💰
+[2017-07-14T13:06:02-05:00] William Davis I like that idea! Lets put together a plan and present it to the team next week.
+[2017-07-14T13:06:18-05:00] Christopher Brooks Its important that our tone is respectful and clear. What types of questions or concerns do we anticipate?
+[2017-07-14T13:07:00-05:00] Stephanie Allen I dont think well get 2 many tbh, v confident in our team and progress so far!
+[2017-07-14T13:07:08-05:00] Stephanie Allen YASSS let’s kill this supplier game 🔥🔥
+[2017-07-14T13:09:00-05:00] William Davis Sure, when are you free?
+[2017-07-14T13:09:01-05:00] William Davis Maybe we could prepare a few slides addressing some potential concerns, just in case?
+[2017-07-14T13:10:06-05:00] Francis Ham Yes, I think thats a good idea. Lets do a risk analysis and prepare accordingly.
+[2017-07-14T13:10:12-05:00] Martin White How about in 30 min? In the lunchroom?
+[2017-07-14T13:11:03-05:00] Christopher Brooks Agreed, we should take a proactive approach to addressing any potential issues.
+[2017-07-14T13:12:02-05:00] Francis Ham Cant make it in person. We can do a call tho. Class of 22 fishin trip rn n having fun here.
+[2017-07-14T13:12:41-05:00] Stephanie Allen ok, ill get started on preparing some slides just in case.
+[2017-07-14T13:13:00-05:00] Martin White No problem, we can Facetime you in.
+[2017-07-14T13:13:34-05:00] William Davis Sounds good, maybe we can do a dry run through next week to practice addressing any concerns.
+[2017-07-14T13:14:02-05:00] Francis Ham Great idea, William. Lets plan for that.
+[2017-07-14T13:15:11-05:00] William Davis Sounds good. See you there.
+[2017-07-14T13:30:33-05:00] Martin White The cost shouldnt be too high and it would be great PR for us.
+[2017-07-14T13:31:22-05:00] William Davis That sounds like a good idea on paper, but what are the tangible effects it would have? Have you done the numbers?
+[2017-07-14T13:33:18-05:00] Martin White I havent yet, thats what I wanted to discuss with you guys. I figured we could work together to figure out the details and come up with a solid implementation plan.
+[2017-07-14T13:34:01-05:00] Francis Ham Def a good idea and so on brand for us IMO. Get the numbers on paper and well come back to the next steps.
+[2017-07-14T13:35:12-05:00] Martin White Sounds good, Ill get started on that. Thanks, guys!
+[2017-07-14T13:36:00-05:00] William Davis No problem, we can set up another meeting once you have the numbers.
+[2017-07-14T13:45:32-05:00] Stephanie Allen thanks 4 your help b4 will, i think our session was most def productive!!
+[2017-07-14T13:47:08-05:00] William Davis Youre welcome, Stephanie. It was a pleasure working with you. Lets do it again soon!
+[2017-07-14T13:47:49-05:00] Stephanie Allen def will! btw, thumbs up on the evaluation process we discussed. lets keep in touch abt this.
+[2017-07-14T14:00:00-05:00] William Davis lets bounce and show them were radical
+[2017-07-14T14:00:00-05:00] Stephanie Allen billiam, we gotta go present times results
+[2017-07-14T14:01:00-05:00] Martin White 2 weeks is too long
+[2017-07-14T14:03:00-05:00] Stephanie Allen well that meeting was a dumpster fire but i think we conveyed our conclusions okay...bangbang
+[2017-07-14T14:03:00-05:00] William Davis thanks for the meeting stephanie, ive initiated a process improvement plan
+[2017-07-14T14:06:22-05:00] Francis Ham Hey team, just wanted to share that weve decided on the HP OfficeJet Pro for our printer upgrade. Planning to purchase soon!
+[2017-07-14T14:07:04-05:00] Martin White awesome, thanks for decision. can’t wait to get my hands on it
+[2017-07-14T14:08:01-05:00] William Davis Agreed, should help us streamline operations
+[2017-07-14T14:09:01-05:00] Stephanie Allen yaas, gonna be so much easier than old one lol
+[2017-07-14T14:10:03-05:00] Christopher Brooks Thank you for the update, Francis. When can we expect the new printers to be installed?
+[2017-07-14T14:12:11-05:00] Francis Ham Were hoping to have them all installed within the next two weeks. Will keep you posted on the exact date.
+[2017-07-14T14:15:21-05:00] Martin White can we expedite the process?
+[2017-07-14T14:17:04-05:00] Francis Ham Trust me, well work as quickly as possible to get them installed. Thanks for your input, Martin.
+[2017-07-14T14:17:08-05:00] William Davis Its not as easy to expedite as you may think, Martin. Two weeks is a reasonable timeline.
+[2017-07-14T14:18:21-05:00] Christopher Brooks Agreed, we want to ensure the installation is done properly.
+[2017-07-14T14:20:02-05:00] Stephanie Allen Hey guys, can we all just take a deep breath? Everythings gonna be fine.
+[2017-07-14T14:25:04-05:00] Francis Ham Any other questions or input regarding the upgrade?
+[2017-07-14T14:28:00-05:00] Christopher Brooks Thanks for the productive discussion today. Im signing off now.
+[2017-07-14T14:28:11-05:00] William Davis Me too, have a good rest of your day everyone!
+[2017-07-14T14:29:02-05:00] Francis Ham Have a good weekend everyone!
+[2017-07-14T14:32:00-05:00] Stephanie Allen sounds amazin
+[2017-07-14T14:45:43-05:00] Francis Ham Yo, Martin. Numbers look good. Can we start production with these materials?
+[2017-07-14T14:46:17-05:00] Martin White Thats great to hear! Ill discuss with the team and let you know soon.
+[2017-07-14T14:48:12-05:00] William Davis Let us know if you need any help, Martin.
+[2017-07-14T14:48:32-05:00] Martin White Thanks, Will do.
+[2017-07-14T15:45:23-05:00] Stephanie Allen Hey, Will, quick chk, still on for the training session tomorrow?
+[2017-07-14T15:48:17-05:00] William Davis Yes, Stephanie, see you there at 9:00 AM sharp.
+[2017-07-14T16:00:00-05:00] Stephanie Allen hey Martin, just wanted to give you an update on the customer satisfaction survey.
+[2017-07-14T16:00:00-05:00] William Davis see you at the next meeting!
+[2017-07-14T16:00:14-05:00] Stephanie Allen satisfaction has gone up 10% this quarter!
+[2017-07-14T16:02:00-05:00] Martin White Hey Steph, youre right! Those creamer singles are super handy and they dont even make a mess <grinning>
+[2017-07-14T16:03:00-05:00] Martin White You rock Steph! That milk had me all messed up <thumbsup>
+[2017-07-14T16:05:22-05:00] Martin White YYYAAAAASSSSS! way to go team QA!
+[2017-07-14T16:07:12-05:00] Stephanie Allen Right? Im so psyched! Looks like the hard work is paying off
+[2017-07-14T16:15:02-05:00] Martin White for sure! cant wait to see whats next
+[2017-07-14T16:27:00-05:00] Stephanie Allen Told you so! <winkingface>
+[2017-07-14T16:30:18-05:00] Stephanie Allen Ive been thinking about conducting a focus group. Is this something youd be interested in joining?
+[2017-07-14T16:32:00-05:00] Stephanie Allen No worries, anytime :D <bangbang>
+[2017-07-14T16:35:02-05:00] Martin White Definitely! Lets discuss in the next Ops meeting.
+[2017-07-14T16:45:23-05:00] Martin White Hey all, quick update, I found a Kaizen methodology we can use. Ill share more details with you when we get together again.
+[2017-07-14T16:47:59-05:00] William Davis Thats awesome, Martin. Were still making progress reducing waste as well.
+[2017-07-14T19:00:00-05:00] Stephanie Allen no prob chris! happy2 help. u-know-who agreed with my feedback wat a surprise lol
+[2017-07-14T22:31:02-05:00] Francis Ham Reminder that ThunderBolt will visit next week. Everything must be in place. We cannot afford any issues.
+[2017-07-14T22:33:12-05:00] William Davis Ill make sure everythings covered for ThunderBolt.
+[2017-07-14T22:35:04-05:00] Francis Ham Thanks, William. But dont forget to handle the current issue with workers. Its more important.
+[2017-07-14T22:39:02-05:00] William Davis No problem. But check your DMs when you have a chance. I sent you something important about the issue.
+[2017-07-14T22:41:18-05:00] Francis Ham Alright, Ill check now. Thank you.
+[2017-07-14T22:43:02-05:00] Stephanie Allen Do you need me to take over some meetings for William?
+[2017-07-14T22:45:12-05:00] Francis Ham Yes, please. For the next few, I need to focus on the worker situation. Thank you, Stephanie.

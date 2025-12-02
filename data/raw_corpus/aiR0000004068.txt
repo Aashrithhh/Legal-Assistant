@@ -1,0 +1,72 @@
+﻿William Davis | Francis Ham:
+[2017-06-09T08:00:00-05:00] Francis Ham thanks for handling it swiftly, William. your efforts are appreciated!
+[2017-06-09T08:04:00-05:00] William Davis Francis, just wanted to give you a morning update on the PR situation. Weve identified the employee who leaked info and have taken appropriate action to terminate employment.
+[2017-06-09T09:00:00-05:00] William Davis I can have him there around 11, does that work for your schedule?
+[2017-06-09T09:04:00-05:00] Francis Ham hey man, checking in about the coffee maker. when do you think itll be delivered?
+[2017-06-09T09:47:03-05:00] William Davis Hey Francis, I spoke to the vendor yesterday, they said itll be delivered tomorrow morning!
+[2017-06-09T09:49:01-05:00] Francis Ham dope. whos gonna set it up?
+[2017-06-09T09:51:00-05:00] William Davis Well, I can have Tom do it, hes pretty good with that kind of stuff.
+[2017-06-09T09:53:03-05:00] Francis Ham cool, that works for me. what time should i expect tom?
+[2017-06-09T09:57:03-05:00] Francis Ham sounds good my man. thanks for all your help with this. i owe you one.
+[2017-06-09T09:59:00-05:00] William Davis no worries, happy to help. cant wait to try this coffee!
+[2017-06-09T10:01:00-05:00] Francis Ham they better be ready to work twice as hard with all this caffeine 😂😂😂
+[2017-06-09T10:02:01-05:00] Francis Ham Hey Will! Just finished reading The Lean Startup, have you read it?
+[2017-06-09T10:02:03-05:00] Francis Ham its gonna be 🔥🔥🔥 for sure
+[2017-06-09T10:03:26-05:00] William Davis Hey Francis, no I have not. How was it?
+[2017-06-09T10:04:12-05:00] Francis Ham It was great. Highly recommend it. Focuses on how modern business should be run, and how to minimize waste by being more creative and agile in processes. Sounds right up your alley.
+[2017-06-09T10:05:02-05:00] William Davis Ok, sounds like a good read. Is it focused on only tech startups or is it more general business strategy?
+[2017-06-09T10:06:11-05:00] Francis Ham Its geared more towards startups but I still think it would be really applicable to us. It explores the concept of the build, measure, learn loop and how to be more efficient with resources. Let me know if you read it.
+[2017-06-09T10:07:02-05:00] William Davis Yeah, Ill definitely check it out. Thanks for the recommendation!
+[2017-06-09T10:08:00-05:00] William Davis lol, the office is gonna be hyped for this
+[2017-06-09T10:09:43-05:00] Francis Ham No problem. Lets catch up at our weekly meeting on Wednesday and chat more about it?
+[2017-06-09T10:10:22-05:00] William Davis Sounds good. Looking forward to it!
+[2017-06-09T10:11:01-05:00] Francis Ham Ok, catch you then!
+[2017-06-09T10:12:18-05:00] William Davis 👍
+[2017-06-09T10:15:04-05:00] Francis Ham 👌
+[2017-06-09T10:20:02-05:00] William Davis Hey, Francis. Just finished reading The Lean Startup. Really interesting concepts. I think we could definitely apply some of it to our team.
+[2017-06-09T10:21:12-05:00] Francis Ham Awesome, glad to hear it! What were your key takeaways?
+[2017-06-09T10:22:49-05:00] William Davis I think the biggest thing was the importance of validating an idea before pouring a ton of resources into it. And also, how to be more efficient with those resources to make sure were delivering maximum value to the company. What do you think?
+[2017-06-09T10:23:53-05:00] Francis Ham Exactly what I picked up on too. Its crucial to know that a product has a need before putting a ton of work into it. Thats why we always have those brainstorm meetings to get feedback from the team. But I think this book goes into detail on how to take actionable steps from that feedback, which is key for future projects.
+[2017-06-09T10:25:12-05:00] William Davis Totally agree. I think we should look into implementing some of these concepts into our process moving forward. Maybe its something we could discuss at our next big team meeting?
+[2017-06-09T10:26:18-05:00] Francis Ham Yes, thats a good idea. Lets add it to the agenda. Cant wait to hear more about how we can continue to innovate our processes.
+[2017-06-09T10:27:00-05:00] William Davis 👍
+[2017-06-09T10:28:02-05:00] Francis Ham 💯
+[2017-06-09T14:00:00-05:00] William Davis Hey Francis, just wanted to give you an update on the project progress. Were making good headway but I see a few roadblocks ahead.
+[2017-06-09T14:01:00-05:00] William Davis The biggest issue is with the supplier, theyre having issues with procuring certain materials in time for our deadlines.
+[2017-06-09T14:01:00-05:00] Francis Ham Hey William! Thanks for the update, what kind of roadblocks are we looking at?
+[2017-06-09T14:01:00-05:00] Francis Ham Hey Will, have you reviewed the budget yet? RBTL is coming in and we need to show them a profitable trend
+[2017-06-09T14:02:00-05:00] William Davis We have a few backup suppliers that were reaching out to, but going with them might increase our costs slightly. Do you want us to proceed with that option?
+[2017-06-09T14:02:00-05:00] Francis Ham Dang thats not what I wanted to hear. Whats our plan to address this?
+[2017-06-09T14:02:02-05:00] William Davis Yes, I did and its not looking good. We need to cut something to make sure that happens. Do you have any ideas?
+[2017-06-09T14:03:00-05:00] Francis Ham Lets get the backup suppliers on board and make sure were on track with our deadline. We cant risk delaying again. Lets set up a meeting to talk about cost analysis in case we need to increase our budget.
+[2017-06-09T14:03:00-05:00] William Davis Got it, Im on it. The meeting can be next Monday at 10 am, hows that for you?
+[2017-06-09T14:03:01-05:00] Francis Ham I was gonna watch the new GoT but sure, Ill think of something later. Ping me when youre ready
+[2017-06-09T14:04:00-05:00] Francis Ham That works for me! Let me know if there are any further updates before then.
+[2017-06-09T14:11:01-05:00] William Davis Lol, lets focus on the budget. I think we should look into travel expenses. We could probably save a good chunk there.
+[2017-06-09T14:15:03-05:00] Francis Ham Yeah, youre right. We really dont need to book first-class seats for every business trip.
+[2017-06-09T14:16:02-05:00] Francis Ham Maybe we should put a limit on flight expenses or even encourage employees to take road trips if feasible
+[2017-06-09T14:18:00-05:00] William Davis Thats a good idea. Ill talk to HR and see what we can do. You think cutting back on team building will work as well?
+[2017-06-09T14:18:03-05:00] Francis Ham Oh no, you know how much we need that for morale. Plus, it is critical for team cohesion. Perhaps, we could plan them more cost-effectively?
+[2017-06-09T14:20:01-05:00] William Davis Yeah, I see your point. Maybe we could organize team lunches instead of corporate dinners. Make it simpler, yet foster team spirit.
+[2017-06-09T14:25:03-05:00] Francis Ham Thats a great idea! We could rotate the team leader that selects the restaurant each month. Keep it fresh and exciting.
+[2017-06-09T14:27:00-05:00] William Davis I like that! Ill ensure that it gets implemented next month. That should save us a significant amount too.
+[2017-06-09T14:28:01-05:00] Francis Ham Thanks, Will! That sounds great. Bag of cash incoming bangbang!
+[2017-06-09T14:29:00-05:00] William Davis Woohoo! Cant wait! Yay thumbsup!
+[2017-06-09T14:42:00-05:00] William Davis Will do, thanks Francis.
+[2017-06-09T15:01:00-05:00] William Davis Yo man, you wont believe what I just remembered from back in the day!
+[2017-06-09T15:03:00-05:00] William Davis thumbsup
+[2017-06-09T15:03:00-05:00] Francis Ham thumbsup
+[2017-06-09T15:16:02-05:00] Francis Ham What’s up, Will? You’re making me curious.
+[2017-06-09T15:17:00-05:00] William Davis Haha. So when I was like 8, I tried to convince my sister to jump out of a window onto our trampoline with me. Safe to say it didn’t work out.
+[2017-06-09T15:19:28-05:00] Francis Ham Oh no, what happened? You guys fell off?
+[2017-06-09T15:20:14-05:00] William Davis Yeah, we fell and my mom came out just in time to see us crash.
+[2017-06-09T15:20:46-05:00] Francis Ham That’s hilarious. Did you guys get hurt?
+[2017-06-09T15:21:22-05:00] William Davis Not too bad, just bruised up a bit. But our pride was definitely hurt more.
+[2017-06-09T15:22:00-05:00] Francis Ham Lol, dont change, man. You keep life interesante!
+[2017-06-09T15:22:00-05:00] Francis Ham Hahaha, I bet. You always were a risk-taker, even as a kid.
+[2017-06-09T15:22:02-05:00] William Davis Thanks man. I guess that hasn’t changed.
+[2017-06-09T15:24:34-05:00] William Davis Haha, gracias, man. That’s why we get along so well. We complement each other well.
+[2017-06-09T15:25:09-05:00] Francis Ham Definitely. Between my business acumen and your taking risks, we make a great team.
+[2017-06-09T15:26:01-05:00] William Davis You know it, man. Always good to reminisce about the old days. Thanks for listening!
+[2017-06-09T19:03:00-05:00] Francis Ham Yo guys, just checked out Chance the Rapper and it was 🔥🔥🔥! Anyone else seen him live?
+[2017-06-09T20:03:00-05:00] Francis Ham Yeah man, he killed it! His energy is contagious. What other artists are you guys into right now?

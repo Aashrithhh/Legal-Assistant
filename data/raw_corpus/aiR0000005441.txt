@@ -1,0 +1,6 @@
+﻿Lillian Hayes | Isla West:
+[2017-06-13T11:00:00-05:00] Lillian Hayes Great meeting with you yesterday, Isla. Lets get started on setting some guidelines for sustainability!
+[2017-06-13T14:05:23-05:00] Isla West Hi Lillian, it was great meeting you earlier. Just wanted to follow up about the project review.
+[2017-06-13T14:07:17-05:00] Lillian Hayes Hey! Yes it was great meeting you and going over everything. What did you think about the teams work?
+[2017-06-13T14:09:13-05:00] Isla West Overall, I think it was a good job. But I do believe there is room for improvement with safety measures. Did you have anything specific in mind to improve for the next project?
+[2017-06-13T14:11:09-05:00] Lillian Hayes Yeah I agree. Just off the top of my head, I think it would be nice to have more safety harnesses and helmets available. I also think we could benefit from some safety training seminars for all team members. What do you think?

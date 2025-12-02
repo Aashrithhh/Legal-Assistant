@@ -1,0 +1,71 @@
+﻿William Davis | Francis Ham:
+[2017-06-14T09:00:00-05:00] Francis Ham Definitely lets chat. Hows lunch sound?
+[2017-06-14T09:00:00-05:00] Francis Ham You know me so well. Lets do it!
+[2017-06-14T09:03:00-05:00] Francis Ham It was intense, man. So many good speeches. Im really glad I went.
+[2017-06-14T09:04:00-05:00] Francis Ham A lot of different insights on how to scale the business. How to leverage automation, when to invest in human capital, etc.
+[2017-06-14T09:04:00-05:00] Francis Ham I did. Met a few people that could really help us out if we want to expand our reach.
+[2017-06-14T09:31:00-05:00] Francis Ham Hey Will, just wanted to update you on the conference I went to yesterday!
+[2017-06-14T09:32:00-05:00] William Davis Hey Francis, thanks for the update! Whats the word?
+[2017-06-14T09:37:00-05:00] William Davis That sounds amazing. What did you learn?
+[2017-06-14T09:42:00-05:00] William Davis Thats great to hear! Did you make any connections while you were there?
+[2017-06-14T09:47:00-05:00] William Davis Awesome! Do you want to follow up on any of that today or wait a little?
+[2017-06-14T09:53:00-05:00] William Davis Sounds perfect. Wanna meet at the sushi place?
+[2017-06-14T09:57:00-05:00] William Davis Haha see you there boss.
+[2017-06-14T10:01:00-05:00] Francis Ham Hey Will, just got to the meeting with the potential vendor. Waiting for them to arrive.
+[2017-06-14T10:02:00-05:00] Francis Ham See you then! Oh and by the way, bangbang!
+[2017-06-14T10:02:03-05:00] Francis Ham supp william, im in the conference room
+[2017-06-14T10:03:00-05:00] William Davis Thats great to hear. Have you discussed any potential partnership opportunities with them?
+[2017-06-14T10:03:00-05:00] Francis Ham So far so good. Their offerings and pricing match our expectations.
+[2017-06-14T10:04:00-05:00] William Davis Haha, you got it!
+[2017-06-14T10:04:00-05:00] Francis Ham Yes, we have. They seem really interested in partnering with us.
+[2017-06-14T10:04:00-05:00] William Davis Thats promising. Lets keep discussing and see if we can come to some agreement.
+[2017-06-14T10:04:09-05:00] William Davis On my way!
+[2017-06-14T10:06:02-05:00] Francis Ham sick, cant wait. got some sick ideas in my head right now haha
+[2017-06-14T10:07:34-05:00] William Davis Looking forward to hearing them.
+[2017-06-14T10:18:00-05:00] William Davis Sounds good, Francis. Lets see what they have to offer.
+[2017-06-14T11:00:00-05:00] William Davis Sounds good Francis, looking forward to seeing the updated packaging design come to life.
+[2017-06-14T11:00:00-05:00] Francis Ham Definitely. Theyve brought up some interesting proposals.
+[2017-06-14T11:00:00-05:00] William Davis Perfect. Lets make it happen!
+[2017-06-14T11:01:00-05:00] William Davis Sounds exciting. Lets see if we can make a partnership work.
+[2017-06-14T11:02:00-05:00] Francis Ham For sure. Ill circle back with you after the meeting to discuss next steps.
+[2017-06-14T11:03:00-05:00] William Davis Sounds good, Francis. Cant wait to hear how it goes.
+[2017-06-14T11:03:00-05:00] Francis Ham Meeting just ended. Everything went great and we have a potential partnership in the works.
+[2017-06-14T11:04:00-05:00] Francis Ham Already on it, Will. Sent out an invite for Thursday at 2pm.
+[2017-06-14T11:04:00-05:00] William Davis Thats fantastic news, Francis! Lets schedule a follow-up meeting with them to finalize the details.
+[2017-06-14T11:05:12-05:00] William Davis Hey Francis, we should pitch these ideas to the marketing team. They need to be on the same page as us to get this project going. What date and time would work for you?
+[2017-06-14T11:07:22-05:00] Francis Ham good idea, lets do it on June 15 at 11 AM. Ill set up the meeting.
+[2017-06-14T11:09:33-05:00] William Davis Sounds great. Lets send a quick message to the team members so they know in advance.
+[2017-06-14T11:10:42-05:00] Francis Ham Aight Ill message the team and let them know.
+[2017-06-14T11:11:03-05:00] William Davis Appreciate it, Francis. Talk to you tomorrow.
+[2017-06-14T11:13:22-05:00] Francis Ham Dont mention it, William. See you tomorrow!
+[2017-06-14T12:00:00-05:00] Francis Ham Cool, catch you later! thumbsup
+[2017-06-14T13:00:00-05:00] Francis Ham Likewise, always exciting to start a new project.
+[2017-06-14T14:00:00-05:00] William Davis Francis, good news! We were able to secure a new vendor and they promised to deliver tomorrow morning. Were not behind schedule anymore.
+[2017-06-14T14:01:00-05:00] Francis Ham Thats awesome timing! *prayer hands emoji* Great work, Will.
+[2017-06-14T15:30:12-05:00] Francis Ham Regarding the power plant, we have a serious issue with the supply chain. Its going to cost us a lot of money if we dont act fast.
+[2017-06-14T15:35:16-05:00] William Davis What kind of options do we have?
+[2017-06-14T15:40:22-05:00] Francis Ham I think we can cut costs by paying the Indian workers less since theyre not legal, and theyre desperate for a job.
+[2017-06-14T15:42:57-05:00] William Davis That sounds like a good plan. Ill work out the numbers and make it happen soon.
+[2017-06-14T16:01:00-05:00] Francis Ham Hey William, do you have a minute to discuss the event?
+[2017-06-14T16:01:00-05:00] William Davis Looks good to me. I think adding a Q&A session would be great. What do you think?
+[2017-06-14T16:01:00-05:00] William Davis Hey Francis, have you seen any good movies lately? Need recommendations for the weekend.
+[2017-06-14T16:10:01-05:00] William Davis Sure, whats up?
+[2017-06-14T16:11:03-05:00] Francis Ham I want to finalize the agenda. Would you mind reviewing it with me?
+[2017-06-14T16:11:04-05:00] William Davis Of course, I can take a look. Send it over.
+[2017-06-14T16:12:01-05:00] Francis Ham agenda.pdf
+[2017-06-14T16:16:01-05:00] Francis Ham Yooo Will, Black Widow was sick. Action-packed and Scarlett killed it haha.
+[2017-06-14T16:16:03-05:00] Francis Ham Hmm, we dont want to give away too much before the event. Lets keep the focus on introducing the new product. Maybe we can save that for the follow-up email.
+[2017-06-14T16:16:34-05:00] William Davis Ive heard mixed reviews about that one. Whatd you rate it out of 10?
+[2017-06-14T16:17:01-05:00] William Davis Good point. How about the order of speakers? Does that work for you?
+[2017-06-14T16:17:12-05:00] Francis Ham Defo 8.5 outta 10. Not a perfect score, but its defo worth the watch!
+[2017-06-14T16:18:00-05:00] Francis Ham Yeah, it looks good. Lets make the opening remarks more engaging. Maybe add some jokes?
+[2017-06-14T16:18:23-05:00] William Davis Hmm alright, I might add it to the list then. But what about the new Tarantino movie? I heard its pretty good too.
+[2017-06-14T16:19:01-05:00] Francis Ham Haha oh yeah, Once Upon a Time In Hollywood? I actually caught that one over the weekend. Classic Tarantino style, Brad Pitt owned it. 8.5/10 as well from me tbh.
+[2017-06-14T16:19:03-05:00] William Davis Haha, good idea. Ill do that.
+[2017-06-14T16:20:03-05:00] Francis Ham Great! Thanks for your help. Im feeling pumped for the event now.
+[2017-06-14T16:20:03-05:00] William Davis Nice, that sounds like a solid bet then. Gonna give it a shot!
+[2017-06-14T16:20:32-05:00] Francis Ham Ayy thats what I like to hear! Lemme know what you think after you see it :)
+[2017-06-14T16:21:00-05:00] William Davis Me too! Lets knock it outta the park!
+[2017-06-14T16:23:00-05:00] Francis Ham Okay, Ill make the final edits. Thanks again, William.
+[2017-06-14T16:24:03-05:00] William Davis Anytime, Francis.
+[2017-06-14T17:57:00-05:00] Francis Ham thumbsup

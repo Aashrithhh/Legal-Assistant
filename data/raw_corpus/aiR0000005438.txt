@@ -1,0 +1,19 @@
+﻿Lillian Hayes | Isla West:
+[2017-06-07T11:04:00-05:00] Isla West Hi Lillian, we finished the construction earlier than the expected deadline! Thanks to your quick redesign. It looks and feels safe!
+[2017-06-07T12:00:00-05:00] Lillian Hayes YAY! Thats what I love to hear! Awesome job, Isla, thanks for keeping everything on track.
+[2017-06-07T12:01:00-05:00] Isla West Thanks, Lillian! It was a team effort. Lets grab drinks to celebrate!
+[2017-06-07T12:03:00-05:00] Lillian Hayes Definitely! How about this Friday at 7 pm at the bar near the construction site?
+[2017-06-07T14:02:00-05:00] Isla West Hi Lillian, hope youre having a great day! Just wanted to send over the inspection report we talked about.
+[2017-06-07T14:02:01-05:00] Isla West inspection_report.pdf
+[2017-06-07T14:05:03-05:00] Lillian Hayes Hey Isla! Im doing good, thanks. Got your report okay. Looks like theres some work to do!
+[2017-06-07T14:05:04-05:00] Lillian Hayes Tbh Im not surprised, haha.
+[2017-06-07T14:07:01-05:00] Isla West Yes, there are definitely a few things that need attention. But Im confident youll get everything up and running in no time!
+[2017-06-07T14:10:01-05:00] Lillian Hayes Ill do my best, dont worry. But Im gonna need your help on some of this stuff. You free for a call later?
+[2017-06-07T14:11:00-05:00] Isla West Sure thing! I have a meeting in about 30 minutes but Ill be free right after that. Does that work?
+[2017-06-07T14:11:02-05:00] Lillian Hayes Perfect! Ill give you a call around 2:45. Thanks again, Isla!
+[2017-06-07T14:12:00-05:00] Isla West No problem, Lillian! Always happy to help.
+[2017-06-07T14:32:00-05:00] Lillian Hayes Hey Isla, Im just wrapping up a few things. Gonna give you a call in a few minutes if thats okay.
+[2017-06-07T14:33:00-05:00] Isla West Sounds good, take your time. Looking forward to chatting with you!
+[2017-06-07T14:57:00-05:00] Lillian Hayes Okay, Isla, Im ready to talk about these changes.
+[2017-06-07T14:57:02-05:00] Lillian Hayes Whats the first step here?
+[2017-06-07T14:59:00-05:00] Isla West Glad to hear it, Lillian! Lets start with the electrical wiring...

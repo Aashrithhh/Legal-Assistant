@@ -1,0 +1,15 @@
+﻿Lillian Hayes | Isla West:
+[2017-06-03T10:02:00-05:00] Lillian Hayes Hey Isla! Im doing a fire safety review of building blueprints. Can I get your input on it?
+[2017-06-03T10:03:22-05:00] Isla West Sure, Id be happy to help. What exactly do you need me to look at?
+[2017-06-03T10:04:00-05:00] Lillian Hayes Hey, Isla, just wanted to update you. I submitted the new plan to our client, and they approved it. We will still make the deadline :)
+[2017-06-03T10:06:18-05:00] Lillian Hayes I just need a fresh pair of eyes to review the blueprints and suggest any changes that might be necessary to comply with fire safety regulations.
+[2017-06-03T10:08:01-05:00] Isla West Understood. Let me take a look and get back to you in a bit.
+[2017-06-03T10:34:53-05:00] Isla West Hi Lillian. Ive gone through the blueprints, and I think we should add a couple of fire escape routes.
+[2017-06-03T10:37:24-05:00] Lillian Hayes Great idea. Whats the best way to approach it? Do you have any reference materials you can recommend that would help me?
+[2017-06-03T10:41:12-05:00] Isla West Heres a link to a document from the National Fire Protection Association that should give you a good idea of what we need to do - <attachment>: nfpa1300.pdf
+[2017-06-03T10:42:37-05:00] Lillian Hayes Thanks, Isla! Ill take a look at that. Also, do you think we need to upgrade the fire extinguishers in the building?
+[2017-06-03T10:45:59-05:00] Isla West Yes, I think we should. I can help you out with that, lets connect on this tomorrow morning.
+[2017-06-03T10:50:01-05:00] Lillian Hayes Ok, sounds good. Ill buy you coffee!
+[2017-06-03T10:50:04-05:00] Isla West Im good with that! I could use a cup o Joe, thanks!
+[2017-06-03T10:51:12-05:00] Lillian Hayes Thumbs up!
+[2017-06-03T11:00:00-05:00] Isla West Awesome news, Lillian! Great job!

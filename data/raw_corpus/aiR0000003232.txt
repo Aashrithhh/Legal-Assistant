@@ -1,0 +1,36 @@
+﻿From    : William Davis wdavis@bigthorium.com [William Davis wdavis@bigthorium.com]
+Sent    : 5/24/2017 7:20:10 PM
+To      : Francis Ham fham@bigthorium.com
+Subject : Worker Complaints - Potential Issues
+
+Frank,
+
+I'm hearing more and more complaints from the construction workers about the long hours they have to put in. I'm concerned they might think about leaving the company at this rate. What are your thoughts on this? 
+
+Best,
+Bill
+
+William Davis
+Director of Operations
+BigThorium
+
+-----------
+ISO 8601: 2017-05-24T14:35:35-05:00
+Return-Path: fham@bigthorium.com
+Delivered-To: wdavis@bigthorium.com
+Received: from bigthorium.com (bigthorium.com [192.168.1.1])
+by mailserver.bigthorium.com (mailserver) with ESMTP id 1234567;
+Wed, 24 May 2017 14:35:35 -0500 (EST)
+From: Francis Ham fham@bigthorium.com
+To: William Davis wdavis@bigthorium.com
+Subject: Re: Worker Complaints - Potential Issues
+Date: Wed, 24 May 2017 14:35:35 -0500 (EST)
+
+Bill,
+
+There is no need to worry. These workers are here without papers and have very limited options. They're not in a position to simply leave, as it would cause them a great deal of trouble. We can continue to capitalize on their situation and keep our operations running smoothly. Let's just ensure they are not too vocal about their issues.
+
+Frank
+
+Francis Ham
+CEO

@@ -1,0 +1,32 @@
+﻿From    : William Davis wdavis@bigthorium.com [William Davis wdavis@bigthorium.com]
+Sent    : 6/30/2017 7:12:50 PM
+To      : Francis Ham fham@bigthorium.com
+Subject : Monitoring Indian Workers' Email Communications
+
+Frank,
+
+I've decided to start monitoring the email communications of our Indian workers. I suspect that a few of them may be up to something that could negatively impact this project. It's important for us to keep an eye on them and nip any issues in the bud.
+
+Please treat this information as highly confidential. Let me know if you have any concerns.
+
+B
+
+-----------
+Return-Path: fham@bigthorium.com
+Delivered-To: wdavis@bigthorium.com
+Received: from bigthorium.com (bigthorium.com [192.168.1.3])
+by mailserver.bigthorium.com (mailserver) with ESMTP id 6789123;
+Fri, 30 Jun 2017 14:33:18 -0500 (EST)
+From: Francis Ham fham@bigthorium.com
+To: William Davis wdavis@bigthorium.com
+Subject: Re: Monitoring Indian Workers' Email Communications
+Date: Fri, 30 Jun 2017 14:33:18 -0500 (EST)
+
+Bill,
+
+I share your concerns and think it's a reasonable approach. However, we need to be careful not to let this information become public as it might taint our image. Let's have a meeting next week to discuss the procedures and the information we gather from this monitoring.
+
+Best,
+Frank
+
+CEO

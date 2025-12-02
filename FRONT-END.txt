@@ -1,0 +1,8 @@
+ 	FRONT-END
+	cd "C:\Users\AashrithReddyVootkur\Documents\legal-ui\frontend"
+	npm start   
+
+	BACK-END
+	cd "C:\Users\AashrithReddyVootkur\Documents\legal-assistant"
+	.\.venv\Scripts\Activate.ps1 
+	python -m uvicorn api_server:app --reload           

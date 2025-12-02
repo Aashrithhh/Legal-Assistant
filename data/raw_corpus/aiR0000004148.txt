@@ -1,0 +1,19 @@
+﻿Francis Ham | Jennifer Baker:
+[2017-07-12T16:03:21-05:00] Jennifer Baker We need to discuss the legal dispute with a former employee that we talked about during the meeting.
+[2017-07-12T16:03:26-05:00] Francis Ham Absolutely. Whats the update?
+[2017-07-12T16:05:02-05:00] Francis Ham Damn. How much money are we talking about?
+[2017-07-12T16:05:12-05:00] Jennifer Baker Unfortunately, the employee is threatening to go public with their complaints about our company culture and personnel issues. We need to plan to mitigate the financial and reputational risks.
+[2017-07-12T16:06:34-05:00] Jennifer Baker Theyre asking for $500,000 to settle.
+[2017-07-12T16:07:22-05:00] Francis Ham Thats a lot of money. Can we negotiate?
+[2017-07-12T16:08:11-05:00] Jennifer Baker Yes, we can offer a counter-proposal and try to find a number that works for both parties.
+[2017-07-12T16:09:01-05:00] Francis Ham Good idea. I think we should also prepare a statement for the press in case this goes public.
+[2017-07-12T16:10:18-05:00] Jennifer Baker Agreed. Ill work on drafting both and send them over for your approval.
+[2017-07-12T16:11:01-05:00] Francis Ham Sounds good. Lets plan to touch base tomorrow on next steps.
+[2017-07-12T16:12:09-05:00] Jennifer Baker Will do. Thanks, Francis.
+[2017-07-12T16:13:32-05:00] Francis Ham thumbsup
+[2017-07-12T16:25:19-05:00] Jennifer Baker Francis, I have a counter-proposal for the settlement. Can we talk through it?
+[2017-07-12T16:28:00-05:00] Francis Ham Sure, give me a call.
+[2017-07-12T16:35:43-05:00] Jennifer Baker On second thought, lets plan to discuss tomorrow. I want to give the proposal more thought overnight.
+[2017-07-12T16:38:21-05:00] Francis Ham Okay, that works. Lets touch base at noon?
+[2017-07-12T16:40:01-05:00] Jennifer Baker Sounds good. Thanks, Francis.
+[2017-07-12T16:41:01-05:00] Francis Ham exploding_head

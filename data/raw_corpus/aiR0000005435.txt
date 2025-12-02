@@ -1,0 +1,9 @@
+﻿Lillian Hayes | Isla West:
+[2017-06-02T10:03:00-05:00] Isla West Hi Lillian, I inspected the construction site this morning and found a few safety hazards. Can we meet to go over them?
+[2017-06-02T11:01:00-05:00] Lillian Hayes Hey Isla, sure thing. How about we meet at 2PM at the construction site?
+[2017-06-02T11:04:00-05:00] Isla West Sounds good to me, thanks!
+[2017-06-02T15:02:00-05:00] Isla West Sorry, Lillian, Im running a few minutes late. Be there soon.
+[2017-06-02T15:03:00-05:00] Lillian Hayes No worries, take your time :)
+[2017-06-02T15:04:00-05:00] Lillian Hayes Hey, Isla, I went over your report, and it looks serious. Especially the loose cables. I will need to redesign a few parts of the plan. Might have to push our deadline back a bit.
+[2017-06-02T16:02:00-05:00] Isla West Thats fine, Lillian. Safety first, always! Do what you must.
+[2017-06-02T16:03:00-05:00] Lillian Hayes Thanks, Isla. I will keep you updated on the changes.

@@ -1,0 +1,155 @@
+﻿Christopher Brooks | Michael Carter | Robert Cooper | William Davis | David Ross | Gregory Mason | Oliver Bailey | Alice Roberts | Timothy Johnson | Katherine Watson | Heather Stewart:
+[2017-07-10T08:03:00-05:00] Heather Stewart Im halfway there! Feeling sore but accomplished.
+[2017-07-10T09:00:00-05:00] Gregory Mason Keep up the good work, Heather! Bangbang.
+[2017-07-10T09:00:00-05:00] Timothy Johnson Hey, Will. Any updates on the progress of the new locations?
+[2017-07-10T09:58:00-05:00] William Davis Were still working on securing locations and obtaining necessary permits. Once we finalize everything, Ill be sure to let everyone know.
+[2017-07-10T10:01:00-05:00] Timothy Johnson Got it. Keep us posted.
+[2017-07-10T10:01:00-05:00] Michael Carter No problem, take your time. I think there may be some areas where we can cut down maintenance to reduce downtime, but I wanted to get your take on it.
+[2017-07-10T10:02:00-05:00] Gregory Mason Ive been thinking about it and I agree that some procedures might be skipped in some instances. But we need to make sure that were still covering our bases and not cutting too much, you know?
+[2017-07-10T10:02:00-05:00] Michael Carter Yeah, I get what youre saying. But at the same time, we need to be mindful of the impact on our bottom line. Maybe we can focus on faster fix procedures for non-essential equipment.
+[2017-07-10T10:03:00-05:00] Alice Roberts Will do. Speak soon. #securityupdate
+[2017-07-10T10:03:00-05:00] Michael Carter Sounds like were on the same page. Lets schedule a meeting with the maintenance team to discuss the new procedures and how to roll them out.
+[2017-07-10T10:03:00-05:00] Gregory Mason Thats exactly what I was thinking. A faster fix process could still meet our business goals while reducing downtime and maintenance costs.
+[2017-07-10T10:03:00-05:00] David Ross Sounds good. Let me know if you need any other information. #securityupdate
+[2017-07-10T10:04:00-05:00] Michael Carter Works for me. Send me a calendar invite and Ill make sure everyone is there.
+[2017-07-10T10:04:00-05:00] Gregory Mason Great idea. How does next Wednesday at 2 PM look for you?
+[2017-07-10T10:07:03-05:00] Gregory Mason Sure thing, just give me a few to wrap up what Im doing.
+[2017-07-10T10:08:00-05:00] Alice Roberts Thanks for letting me know, David. Can you send me some more details on the firewall configuration? #securityupdate
+[2017-07-10T10:11:00-05:00] David Ross Yeah sure thing. I’ll compile the information and send it to you in a bit. #securityupdate
+[2017-07-10T10:23:00-05:00] David Ross Here are the details on the firewall config: [attachment: firewall_config.pdf] Let me know if you have any questions. #securityupdate
+[2017-07-10T10:28:00-05:00] Alice Roberts This is great, David. Thanks for compiling all of this information. Ill take a closer look and let you know if I have any follow-up questions. #securityupdate
+[2017-07-10T11:00:00-05:00] Gregory Mason Of course, happy to help. 👍
+[2017-07-10T11:00:00-05:00] Michael Carter 👍 to that. Talk soon!
+[2017-07-10T11:01:00-05:00] Gregory Mason Sounds good, Michael. Catch you later. 👋
+[2017-07-10T11:01:00-05:00] Michael Carter Later, Greg. 👋
+[2017-07-10T11:03:00-05:00] Gregory Mason Just amazed at how smoothly this all went. Great team effort! 💪
+[2017-07-10T11:05:02-05:00] David Ross sup doods, just got outta mtg w/Tim, buildings still on track 🔨👷
+[2017-07-10T11:06:00-05:00] David Ross bgt still looks good, projs still on sched 🚧⏰
+[2017-07-10T11:06:01-05:00] Oliver Bailey Good morning David, did Timothy provide any updates?
+[2017-07-10T11:07:21-05:00] Timothy Johnson Thanks for meeting w/me, David. I appreciate your input.
+[2017-07-10T11:10:02-05:00] David Ross no prob, dig the construction lingo 😂💯
+[2017-07-10T11:15:03-05:00] Timothy Johnson I think we need to increase the budget a little bit to accommodate some unexpected costs. Do you have any concerns, David?
+[2017-07-10T11:17:00-05:00] David Ross 💸💸💸lol jk but srs yeah we can increase to 10%, will reassess if we go over
+[2017-07-10T11:20:01-05:00] Oliver Bailey This increase in budget will affect the timeline, Tim. Can you provide an update on that as well?
+[2017-07-10T11:21:03-05:00] Timothy Johnson I believe we can still deliver on the agreed timeline, we should be able to mitigate any further delays.
+[2017-07-10T11:22:32-05:00] David Ross 🤞🤞🤞
+[2017-07-10T11:23:04-05:00] Oliver Bailey Great news, thank you for your collaboration on this.
+[2017-07-10T11:24:01-05:00] Timothy Johnson Absolutely, anytime.
+[2017-07-10T11:26:00-05:00] David Ross thx for the info, big T! gotta go change mode now 😎👨‍💼
+[2017-07-10T11:26:03-05:00] Michael Carter Haha, something funny? 😂
+[2017-07-10T12:45:11-05:00] Alice Roberts Thats a great recipe, Heather. I have to try a gin and tonic at that new bar in town! Speaking of bars, anyone have any other favorites for summer drinks around here?
+[2017-07-10T13:00:00-05:00] Alice Roberts Good afternoon, Christopher and Robert. Our IoT integration meeting is scheduled for 2 pm. Please let me know if the time works for you.
+[2017-07-10T13:00:00-05:00] Oliver Bailey Hi Christopher, are you ready to review the quality assurance report from Project Alpha?
+[2017-07-10T13:00:00-05:00] Oliver Bailey Understood. Thanks for the discussion. thumbsup
+[2017-07-10T13:02:00-05:00] Christopher Brooks Oliver, I have reviewed the report and found several issues that require corrective action. Can we schedule a meeting with the team to discuss them?
+[2017-07-10T13:03:00-05:00] Oliver Bailey That sounds like a good plan. I will make the necessary arrangements. Can we report the progress during the weekly team meeting?
+[2017-07-10T13:03:00-05:00] Christopher Brooks Yes, we can hold a training session for the team on the identified issues and how to prevent them in the future. Also, can we assign a dedicated team member to review the process on a regular basis?
+[2017-07-10T13:04:00-05:00] Christopher Brooks Yes, that works for me. Please send me a copy of the corrected report after the meeting, and we can discuss any follow-up actions.
+[2017-07-10T13:08:00-05:00] Christopher Brooks Hello Oliver, yes, I am reviewing it right now. Please give me a minute.
+[2017-07-10T13:10:23-05:00] Christopher Brooks Hello Alice and Robert, yes, the time works for me.
+[2017-07-10T13:11:18-05:00] Robert Cooper Yeah I can make it at 2.
+[2017-07-10T13:27:00-05:00] Oliver Bailey Sure, I will send a calendar invite for tomorrow at 10 AM. Do you have any suggestions for how we can improve our quality assurance process?
+[2017-07-10T14:00:00-05:00] Christopher Brooks Youre welcome. I always appreciate the opportunity to collaborate with you. Have a good rest of your day. ok
+[2017-07-10T14:00:00-05:00] Katherine Watson Hey guys! Just got back from my trip to Austin and Im obsessed!
+[2017-07-10T14:01:00-05:00] Heather Stewart Hi team, I wanted to discuss our employee feedback and performance review process. Are there any thoughts or suggestions?
+[2017-07-10T14:01:00-05:00] William Davis I agree with Christopher. Also, we could have a survey sent to all of our employees after every review, to gauge their satisfaction.
+[2017-07-10T14:01:00-05:00] Alice Roberts Alright then, I think weve covered a lot of ground here. Thank you both for the productive conversation.
+[2017-07-10T14:02:00-05:00] Heather Stewart Katherine, do you have any recommendations for me? Im thinking about going there in a couple of weeks.
+[2017-07-10T14:03:00-05:00] Christopher Brooks I wholeheartedly agree. It creates a dialogue and open communication between employees and their supervisors.
+[2017-07-10T14:03:00-05:00] Michael Carter thumbsup
+[2017-07-10T14:03:21-05:00] Alice Roberts Good afternoon, Robert and Gregory. How are you both doing today?
+[2017-07-10T14:03:56-05:00] Robert Cooper Hey there! Doing good, thanks for asking. Enjoying this beautiful day out here. How about you Greg?
+[2017-07-10T14:04:23-05:00] Gregory Mason Im doing well, thanks Robert. And you, Alice?
+[2017-07-10T14:04:36-05:00] Alice Roberts Were about to start the meeting. Do we have an agenda or anyone wants to start?
+[2017-07-10T14:04:48-05:00] Alice Roberts Im doing well, thank you for asking. Shall we get started on discussing renewable energy and the latest trends in the industry?
+[2017-07-10T14:04:49-05:00] Christopher Brooks Robert, do you have any updates on the hardware installation process?
+[2017-07-10T14:05:02-05:00] Robert Cooper Yes, most of the sensors are installed at this point and were seeing good results. Still, need to get a few more installed at the factory exit points.
+[2017-07-10T14:05:03-05:00] Michael Carter Yooo I love ATX! Did you try any of the food there?
+[2017-07-10T14:05:17-05:00] Christopher Brooks Good afternoon, Heather. What is on your mind?
+[2017-07-10T14:05:21-05:00] Robert Cooper Sounds like a plan! Theres been a lot of buzz on solar and wind energy. What do you guys think?
+[2017-07-10T14:06:12-05:00] Gregory Mason I think theyre great, but we need to make sure we have proper maintenance and repair procedures in place for these technologies.
+[2017-07-10T14:06:21-05:00] Alice Roberts Are we still on schedule for the software development timeline?
+[2017-07-10T14:06:38-05:00] Alice Roberts Agreed, Gregory. What do you think about tidal energy? Thats another renewable option that seems to be gaining some traction.
+[2017-07-10T14:06:46-05:00] Christopher Brooks Yes, the QA team is running tests in parallel and we should be ready for the pilot project on August 3rd.
+[2017-07-10T14:07:02-05:00] Alice Roberts Thank you, Christopher. Robert, do you have any concerns?
+[2017-07-10T14:07:03-05:00] Robert Cooper Just a minor concern with the predictions module. Its not as accurate as I would like. Is there a way to tweak it?
+[2017-07-10T14:07:12-05:00] Heather Stewart Hi Katherine! Glad you had a good trip. What did you do there?
+[2017-07-10T14:07:34-05:00] Heather Stewart Hello, Christopher. Im having an issue with some milk thieves in the kitchen. What do you think about installing a security camera?
+[2017-07-10T14:08:04-05:00] Katherine Watson Yes, Michael! The brisket was SOOO good. Heather, we went to Barton Springs Pool and The Contemporary museum.
+[2017-07-10T14:08:04-05:00] Gregory Mason It harnesses the power of tidal currents to generate electricity. Its still in the early stages, but its definitely a promising technology.
+[2017-07-10T14:08:09-05:00] Robert Cooper Im not too familiar with tidal energy. How does it work exactly?
+[2017-07-10T14:08:12-05:00] Alice Roberts Ill talk to the data science team, Robert, and we will see what we can do to optimize the algorithm.
+[2017-07-10T14:09:12-05:00] Alice Roberts Definitely worth keeping an eye on. And what about geothermal energy? Its been around for a while, but its still a reliable source of renewable energy.
+[2017-07-10T14:09:23-05:00] Christopher Brooks Sounds good. Should we schedule a follow-up meeting for next week to discuss any updates made?
+[2017-07-10T14:10:01-05:00] Alice Roberts Yes, lets schedule to meet at the same time, next Monday. Thanks for your time today, gentlemen.
+[2017-07-10T14:10:02-05:00] Heather Stewart Sounds like fun! Did you take any pictures?
+[2017-07-10T14:10:21-05:00] Christopher Brooks A security camera could potentially solve that problem. However, we would need to get the necessary approvals and ensure that such security measures comply with the law.
+[2017-07-10T14:11:02-05:00] Robert Cooper Thats true, Alice. Not as flashy as some of the other options, but its a workhorse. And maybe there are some new innovations in geothermal that we could explore.
+[2017-07-10T14:11:09-05:00] Katherine Watson austin_pics.png
+[2017-07-10T14:11:56-05:00] Gregory Mason Theres been some research on using abandoned oil and gas wells as a source of geothermal energy. Its an interesting idea.
+[2017-07-10T14:12:03-05:00] Christopher Brooks This is important, thank you for bringing it up. I suggest we formalize the process more and schedule performance reviews every quarter.
+[2017-07-10T14:12:32-05:00] Alice Roberts Thats a great point, Gregory. Well have to look into that further. Anything else we want to discuss on this topic?
+[2017-07-10T14:13:08-05:00] Heather Stewart Of course, compliance is important to me. Lets work on getting the approvals. Ill talk to our legal department and keep you updated.
+[2017-07-10T14:14:03-05:00] Michael Carter OMG that picture of the brisket is making me hungry again
+[2017-07-10T14:16:23-05:00] Christopher Brooks Sounds good. Thank you, Heather.
+[2017-07-10T14:16:58-05:00] Katherine Watson Haha I could use some more too!
+[2017-07-10T14:17:49-05:00] Robert Cooper Yeah, definitely. And anytime!
+[2017-07-10T14:18:21-05:00] Gregory Mason Thanks, and enjoy the rest of your day, everyone!
+[2017-07-10T14:19:00-05:00] Alice Roberts You too, Gregory!
+[2017-07-10T14:20:12-05:00] Heather Stewart Those are both great suggestions. We can review our current process and update it accordingly. Any other thoughts?
+[2017-07-10T14:20:49-05:00] Heather Stewart Absolutely. The thefts have been happening for a while now and its causing some frustration among employees.
+[2017-07-10T14:21:43-05:00] Katherine Watson Definitely try out the nightlife on Rainey Street. Its a must!
+[2017-07-10T14:22:00-05:00] Gregory Mason Theres a place downtown called The Green Zebra that has amazing cocktails. Highly recommend!
+[2017-07-10T14:22:51-05:00] Michael Carter I agree with Kat! Go to Bar Illegal, such a cool spot.
+[2017-07-10T14:23:12-05:00] Christopher Brooks I completely understand. Keeping our workplace secure is of utmost importance. Send me the proposal when you get a chance and I will review it.
+[2017-07-10T14:24:18-05:00] Heather Stewart Thanks, guys! Ill check them out. When are we going back?? haha
+[2017-07-10T14:25:03-05:00] Christopher Brooks Another idea is for employees to submit self-evaluations before reviews. This allows them a chance to highlight their achievements and address any challenges.
+[2017-07-10T14:25:04-05:00] Heather Stewart Will do. Thanks, Christopher.
+[2017-07-10T14:25:09-05:00] Katherine Watson Lets plan a trip for ACL!
+[2017-07-10T14:26:01-05:00] Michael Carter Down! Been dying to go since forever.
+[2017-07-10T14:28:01-05:00] Heather Stewart I really like that idea, Christopher. It helps to create a more inclusive process. Lets add that to our updated process.
+[2017-07-10T14:29:03-05:00] Heather Stewart Sounds like a plan. Just let me know the dates and Ill try to make it work.
+[2017-07-10T14:30:01-05:00] Katherine Watson You got it!
+[2017-07-10T14:30:04-05:00] William Davis Sounds good to me. How about we also create a system where employees can provide feedback on their supervisors during performance reviews?
+[2017-07-10T14:31:04-05:00] Heather Stewart Thanks for sharing your trip with us, Katherine. It was great to live vicariously through your photos!
+[2017-07-10T14:32:12-05:00] Katherine Watson Haha anytime, Heather!
+[2017-07-10T14:33:02-05:00] Heather Stewart Thats a great idea, William. Thank you for suggesting it. We want to make sure our employees feel heard and valued.
+[2017-07-10T14:33:02-05:00] Heather Stewart Hi Christopher, just confirming that the legal department approves of the proposal. Let me know if you need anything else from me.
+[2017-07-10T14:35:17-05:00] Christopher Brooks Thank you for the update, Heather. I will review and get back to you with any further questions or requests.
+[2017-07-10T14:38:09-05:00] Heather Stewart Sounds good. Have a great day, Christopher.
+[2017-07-10T14:39:57-05:00] Christopher Brooks You too, Heather.
+[2017-07-10T14:45:03-05:00] Heather Stewart Im glad were addressing this milk theft issue. Its been causing some tension in the office.
+[2017-07-10T14:48:00-05:00] Christopher Brooks Yes, its important to address any issues that may affect the office environment. Lets hope that the new security measure will help to deter any potential theft.
+[2017-07-10T14:51:23-05:00] Heather Stewart Agreed. Well keep a close eye on the situation. Thanks for your help with this.
+[2017-07-10T14:53:41-05:00] Christopher Brooks No problem at all, Heather. Have a great day.
+[2017-07-10T15:01:00-05:00] Katherine Watson How about today, are you free this afternoon? We can meet over coffee at the cafe near our office ☕️
+[2017-07-10T15:01:00-05:00] Christopher Brooks Clap
+[2017-07-10T15:01:00-05:00] William Davis Thumbsup
+[2017-07-10T15:01:00-05:00] Oliver Bailey I am free in half an hour. Will it work for you? The cafe near the office sounds perfect. 🤔
+[2017-07-10T15:01:23-05:00] Heather Stewart Another favorite of mine is the bar at the top of the hotel by the waterfront. They have a great view and an amazing selection of drinks.
+[2017-07-10T15:02:00-05:00] Katherine Watson Sure, see you there in 30 mins. 👌
+[2017-07-10T15:02:00-05:00] Katherine Watson hey Oli, we need to hang out and iron out the issues before the event! 😎
+[2017-07-10T15:02:00-05:00] Heather Stewart Exploding_head
+[2017-07-10T15:02:00-05:00] Alice Roberts Unfortunately, I have a prior engagement tonight so I wont be able to attend the dinner. Can you represent us and fill me in on the details later?
+[2017-07-10T15:03:00-05:00] Oliver Bailey Sorry for running late. Just got stuck in another meeting. Can we push the meeting time back 15 mins? 😓
+[2017-07-10T15:04:00-05:00] Katherine Watson Thats okay, Ill be waiting at the cafe. Catch you at 3:55. 👍
+[2017-07-10T15:04:00-05:00] David Ross I really enjoyed Simon Sineks talk about leadership 👍🏼
+[2017-07-10T15:05:12-05:00] David Ross Hey Alice, ystday was gr8. R clients were imprsd by our xpertse. Wht do u thnk was the highlght of the meet?
+[2017-07-10T15:06:03-05:00] Alice Roberts Hi David, Im glad the meeting went well. I think the highlight was when we talked about our successful implementation of the new CRM software for Company X. It really showed our expertise in system integration and data management.
+[2017-07-10T15:08:01-05:00] David Ross Yaaas, I too felt the same. Do u thnk its worth sending out a follow-up email to r clients? Wht shud it say?
+[2017-07-10T15:10:02-05:00] Alice Roberts I think its a good idea to send a follow-up email to thank them for their time and provide some additional information, such as case studies or whitepapers. I can draft the email and send it to you for review before we send it out.
+[2017-07-10T15:11:00-05:00] David Ross Sounds great, thnx Alice. Pls let me knw by EOD. Rly appreciate it!
+[2017-07-10T15:13:18-05:00] Alice Roberts Will do, David. By the way, I was thinking that we should also schedule a follow-up call with the clients next week to answer any additional questions or concerns they might have. What do you think?
+[2017-07-10T15:15:01-05:00] David Ross Yes, thats a grt idea. Lets pln for Wednsday 1 PM? Ill send a calendar invite.
+[2017-07-10T15:16:04-05:00] Alice Roberts Wednesday 1 PM works for me. Looking forward to it!
+[2017-07-10T15:18:24-05:00] David Ross Same here! Also, Raja sent a msg earlier today asking if were available for dinner tonight to discuss the new project proposal. How abt we meet him at The Carlton at 7 PM?
+[2017-07-10T15:23:01-05:00] David Ross Of crs, Ill be happy to. Ill fill u in on evrythng later. Dont worry abt a thng, Alice.
+[2017-07-10T15:24:04-05:00] Alice Roberts Thank you, David. I appreciate your flexibility. Talk to you later.
+[2017-07-10T15:26:02-05:00] David Ross Np, anytime. Tlk to u soon! exploding_head
+[2017-07-10T15:27:00-05:00] Alice Roberts Have a good evening, David. thumbsup
+[2017-07-10T16:00:00-05:00] Katherine Watson I see you, waving over here! Lets go inside. 🚪
+[2017-07-10T16:00:00-05:00] Katherine Watson Hey guys! I went to a local theatre performance over the weekend and had a blast! :D
+[2017-07-10T16:01:00-05:00] Katherine Watson So whats the status report? Do we have all the necessary documents ready? 🤔
+[2017-07-10T16:01:00-05:00] Oliver Bailey Everything is on schedule. We have double-checked all the documents and everything is in place. 📋
+[2017-07-10T16:02:00-05:00] Katherine Watson Great to hear that! Let me know if there are any last-minute issues or tasks that need attention. I am always available to help out. 💁‍♀️
+[2017-07-10T16:02:00-05:00] Oliver Bailey Sure, I will keep that in mind. This has been an excellent meeting. Lets schedule another one soon. 👋

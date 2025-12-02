@@ -1,0 +1,5 @@
+﻿Stephen Lewis | Douglas Wood:
+[2017-06-26T10:03:00-05:00] Douglas Wood Thanks for being here today. First, what do you think are the main types of conflicts that employees experience at work?
+[2017-06-26T10:04:00-05:00] Stephen Lewis I think most conflicts can be classified under personality differences or work style clashes. But there are also more serious issues such as harassment, discrimination, and aggression.
+[2017-06-26T11:01:00-05:00] Douglas Wood Right, we need to have better policies to address such issues. In the written code of conduct, what do you think are some of the key areas to emphasize?
+[2017-06-26T11:03:00-05:00] Stephen Lewis I think emphasizing transparency in communication and the reporting process is vital. In addition, it would be beneficial to list specific behaviors and the steps employees can take to report concerns.

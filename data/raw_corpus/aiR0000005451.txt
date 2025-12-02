@@ -1,0 +1,7 @@
+﻿Lillian Hayes | Isla West:
+[2017-07-03T09:23:14-05:00] Isla West Hi Lillian, just finished inspecting the construction site and noticed a potential safety violation. Can you look into this ASAP?
+[2017-07-03T09:26:32-05:00] Lillian Hayes Sure thing, Isla. Can you send me the details so I can address it with the construction team?
+[2017-07-03T09:28:14-05:00] Isla West Yes, I sent the pictures to your work email. Thanks for your quick response.
+[2017-07-03T09:34:02-05:00] Lillian Hayes Just saw them, thanks for alerting me. Ill make sure its taken care of ASAP.
+[2017-07-03T13:02:01-05:00] Lillian Hayes Hey Isla, spoke to the construction team and were working on fixing the issue you reported. Thank you again for bringing it to my attention.
+[2017-07-03T14:45:22-05:00] Isla West Thank you for the update, Lillian. This is an important issue that needs attention.

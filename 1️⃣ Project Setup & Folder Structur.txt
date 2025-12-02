@@ -1,0 +1,378 @@
+1️⃣ Project Setup & Folder Structure
+
+What we did
+
+Created a project folder: legal-assistant/
+
+Made a virtual environment and installed dependencies (cohere, openai/azure, pypdf, etc.).
+
+Created a clean folder structure:
+
+legal-assistant/
+  data/
+    raw_corpus/        <- all PDFs, TXT, EML go here
+    index/             <- SQLite vector DB lives here
+  legal_assistant/
+    __init__.py
+    config.py
+    llm/
+      __init__.py
+      embeddings_client.py
+      chat_client.py
+    retrieval/
+      __init__.py
+      vector_store.py
+    utils/
+      __init__.py
+      chunking.py
+      pdf_extraction.py
+      eml_extraction.py
+  ingest_pdf_corpus.py
+  ingest_txt_corpus.py
+  ingest_eml_corpus.py
+  rag_answer.py
+  query_cli.py
+
+
+Why: so ingestion, retrieval, LLM, and utilities are all modular and easy to change later.
+
+2️⃣ Environment Configuration (.env + config.py)
+
+What we did
+
+Created a .env with API details:
+
+Azure OpenAI:
+
+OPENAI_BASE_URL – endpoint of your Azure OpenAI resource
+
+OPENAI_API_KEY – key for that resource
+
+OPENAI_API_VERSION – e.g. 2025-01-01-preview
+
+OPENAI_CHAT_MODEL – deployment name (now gpt-5-chat)
+
+Cohere:
+
+COHERE_API_KEY
+
+COHERE_EMBEDDING_MODEL=embed-english-v3.0
+
+Then in legal_assistant/config.py we created a Settings class (using pydantic) that reads everything from .env and exposes:
+
+settings.openai_base_url
+
+settings.openai_api_key
+
+settings.chat_model
+
+settings.cohere_api_key
+
+settings.cohere_embedding_model
+
+Why: so changing models/keys is just editing .env, not code.
+
+3️⃣ Embeddings Layer (Cohere)
+
+File: legal_assistant/llm/embeddings_client.py
+
+What we did
+
+Initialize the Cohere client with COHERE_API_KEY.
+
+Chose model: embed-english-v3.0.
+
+Implemented:
+
+embed_texts(texts: List[str]) -> List[List[float]]
+
+
+Inside it, we call Cohere’s client.embed(…) and return the list of embedding vectors.
+
+Why: this is the “text → vector” function used for both documents and user queries.
+
+4️⃣ Vector Store (SQLite-based “Vector DB”)
+
+File: legal_assistant/retrieval/vector_store.py
+
+What we did
+
+Use sqlite3 to create a DB file:
+data/index/embeddings.db
+
+Create table:
+
+embeddings(
+  id TEXT PRIMARY KEY,
+  embedding TEXT,     -- JSON list of floats
+  document TEXT,      -- the chunk text
+  metadata TEXT       -- JSON (source_file, chunk_index, etc.)
+)
+
+
+Implemented:
+
+add_embeddings(ids, embeddings, documents, metadatas)
+
+Inserts/updates rows in the table.
+
+query_by_embedding(query_embedding, top_k)
+
+Loads all stored embeddings
+
+Computes cosine similarity between query vector and each stored vector
+
+Returns top-K (id, score, document, metadata).
+
+Why: we couldn’t use Chroma easily, so we built our own vector DB on top of SQLite – simpler, portable, and enough for thousands of chunks.
+
+5️⃣ Utilities: Chunking & Extraction
+a) Chunking
+
+File: legal_assistant/utils/chunking.py
+
+chunk_text(text, max_words=200, overlap=50)
+
+Splits long text into overlapping chunks (~200 words) so each piece is LLM-friendly and semantically meaningful.
+
+b) PDF Extraction
+
+File: legal_assistant/utils/pdf_extraction.py
+
+Uses pypdf.PdfReader to:
+
+Loop over pages
+
+Extract text
+
+Clean/concatenate into a single string.
+
+c) EML Extraction
+
+File: legal_assistant/utils/eml_extraction.py
+
+Uses Python’s email library to parse .eml:
+
+Read headers: From, To, Subject, Date
+
+Extract text/plain parts as body
+
+Returns a dict:
+
+{from, to, subject, date, body}
+
+Why: this lets us treat PDF judgments, TXT case notes, and email files in a unified way.
+
+6️⃣ Ingestion Scripts (PDF, TXT, EML)
+
+These are the “index builder” scripts.
+
+a) TXT ingestion
+
+File: ingest_txt_corpus.py
+
+Looks in data/raw_corpus for *.txt
+
+For each file:
+
+Read whole text
+
+Chunk with chunk_text
+
+Embed chunks via EmbeddingClient
+
+Build ids like filename_chunk_0
+
+Create metadata: {"source_file": filename, "chunk_index": i, "source_type": "txt"}
+
+Call VectorStore.add_embeddings(...)
+
+b) PDF ingestion
+
+File: ingest_pdf_corpus.py
+
+Similar logic:
+
+Find *.pdf in data/raw_corpus
+
+Extract text with extract_text_from_pdf
+
+Chunk → embed → store
+
+Metadata includes source_type: "pdf"
+
+c) EML ingestion
+
+File: ingest_eml_corpus.py
+
+Find *.eml in data/raw_corpus
+
+Extract email using extract_eml:
+
+Build a combined string:
+
+From: ...
+To: ...
+Subject: ...
+Date: ...
+
+<body text>
+
+
+Chunk → embed → store
+
+Metadata includes:
+
+source_type: "eml"
+
+from, to, subject, date
+
+Why: running these scripts populates / updates the vector store with all documents.
+
+7️⃣ Retrieval Testing & Debugging
+
+We validated the pieces with small test scripts:
+
+test_embeddings.py – check Cohere embeddings work and return correct dimensions.
+
+test_chunking.py – verify chunking splits text as expected.
+
+test_vector_store.py – add dummy docs and query them.
+
+query_cli.py – an interactive CLI:
+
+Ask a question
+
+Show top-K results with id, score, source_file, and text.
+
+This helped us confirm that the retrieval-side works before involving the LLM.
+
+8️⃣ LLM Client (Chat Layer)
+
+File: legal_assistant/llm/chat_client.py
+
+What we did
+
+Used AzureOpenAI with:
+
+openai_base_url
+
+openai_api_key
+
+openai_api_version
+
+chat_model (deployment – now gpt-5-chat)
+
+Implemented:
+
+ask(system_prompt: str, user_prompt: str) -> str
+
+
+Inside, we call:
+
+client.chat.completions.create(...) (Azure style)
+
+Pass system + user messages
+
+Return the model’s response text.
+
+Why: this is the “brain” that reads the retrieved context and generates the final answer.
+
+9️⃣ RAG Orchestration (The Actual “RAG Model”)
+
+File: rag_answer.py
+
+This is where everything comes together.
+Flow for each question:
+
+User inputs a question (from terminal).
+
+Embed the question
+
+EmbeddingClient.embed_texts([question])[0]
+
+Retrieve relevant chunks
+
+VectorStore.query_by_embedding(query_emb, top_k=4)
+
+Returns top 4 chunks with their metadata.
+
+Build context
+
+Combine retrieved chunks into a context string, including:
+
+Source file name
+
+Maybe chunk index and score
+
+The actual text snippets
+
+Call GPT (now GPT-5-chat) with RAG prompt
+
+System message: “You are a legal/email assistant. Answer using ONLY the context. Cite the source files.”
+
+User message:
+
+Question: <user question>
+
+Relevant context:
+<chunk1 text>
+<chunk2 text>
+...
+
+Provide a concise answer based only on this context.
+
+
+Display the answer
+
+Prints a neat answer and sometimes (source_file) references.
+
+This is your RAG loop:
+
+Query → Embed → Retrieve → Build Context → LLM Answer.
+
+🔟 Adding New Documents (What You’d Tell Your Manager)
+
+To add new PDFs:
+
+Drop them into:
+
+data/raw_corpus/
+
+
+Run:
+
+python ingest_pdf_corpus.py
+
+
+To add new TXT files:
+
+Copy .txt into data/raw_corpus/
+
+Run:
+
+python ingest_txt_corpus.py
+
+
+To add new EML files:
+
+Copy .eml into data/raw_corpus/
+
+Run:
+
+python ingest_eml_corpus.py
+
+
+To start fresh:
+
+Remove-Item data/index/embeddings.db
+python ingest_pdf_corpus.py
+python ingest_txt_corpus.py
+python ingest_eml_corpus.py
+
+
+Then python rag_answer.py will query across all updated content.
+
+🧠 One-Sentence Summary You Can Use
+
+“We built a modular RAG system where PDFs, TXT files, and EML emails are ingested, chunked, and embedded with Cohere into a custom SQLite-based vector store, and for each user question we retrieve the most relevant chunks and let an Azure OpenAI model (currently GPT-5-chat) generate an answer strictly grounded in that retrieved context.”

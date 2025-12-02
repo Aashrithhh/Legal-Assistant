@@ -1,0 +1,101 @@
+﻿William Davis | Francis Ham:
+[2017-06-02T09:00:00-05:00] William Davis Hey Francis, can you send me the itinerary for ThunderBolt Industries visit next week? I want to make sure it shows progress with our project.
+[2017-06-02T09:00:00-05:00] Francis Ham Hey Will, can we chat for a moment?
+[2017-06-02T09:00:00-05:00] William Davis Yes, its going to be a big day for us.
+[2017-06-02T09:00:00-05:00] Francis Ham Awesome! Looking forward to seeing the progress in action.
+[2017-06-02T09:01:00-05:00] William Davis Good Morning Francis! The power cable for the coffee machine has been delivered. Do you mind if I drop by your desk later so we can start using it?
+[2017-06-02T09:02:00-05:00] William Davis Thanks for your trust. Lets schedule a meeting with the team to discuss what I came up with?
+[2017-06-02T09:02:00-05:00] Francis Ham Absolutely, Will! Ill add some more info and send it your way.
+[2017-06-02T09:03:00-05:00] William Davis Hi Francis, I noticed the coffee maker in the break room is broken. Can we purchase a new one?
+[2017-06-02T09:03:00-05:00] Francis Ham Sure can. How much would that cost?
+[2017-06-02T09:07:23-05:00] William Davis Of course Francis, whats up?
+[2017-06-02T09:08:00-05:00] Francis Ham Hey Will! Sure thing, Ill send it over right now.
+[2017-06-02T09:10:01-05:00] Francis Ham I just wanted to follow up on our meeting yesterday. I think we need to optimize our operations to better achieve our goals for this quarter.
+[2017-06-02T09:10:43-05:00] Francis Ham Hey man, sounds good! I love a good cup of coffee. Lets make it happen.
+[2017-06-02T09:11:21-05:00] William Davis No worries! Ill swing by in a bit.
+[2017-06-02T09:12:00-05:00] Francis Ham TB_Itinerary.pdf
+[2017-06-02T09:12:01-05:00] Francis Ham Ive just shared with you the companys vision and goals, youre the best person to make sure that happens.
+[2017-06-02T09:15:01-05:00] William Davis I agree, I was thinking about this last night. I have a few suggestions on how we can improve our processes.
+[2017-06-02T09:16:00-05:00] William Davis Thanks Francis, can you be more specific about the details for each item on the itinerary?
+[2017-06-02T09:18:00-05:00] William Davis Id like to make sure we can show clear progress on each point.
+[2017-06-02T09:18:23-05:00] Francis Ham Thats great to hear. I knew I could count on you to help us achieve our goals for this quarter.
+[2017-06-02T09:22:01-05:00] Francis Ham That sounds like a great idea. Pick a time that works for you, and I will make sure to be available.
+[2017-06-02T09:25:01-05:00] William Davis How about next Tuesday at 10am?
+[2017-06-02T09:27:01-05:00] Francis Ham That works for me. Lets plan to meet in the conference room.
+[2017-06-02T09:30:02-05:00] William Davis Got it! I will send everyone an email to confirm the date and time.
+[2017-06-02T09:34:01-05:00] Francis Ham Perfect. Thank you, Will. You always come up with great ideas to help us improve our operations.
+[2017-06-02T09:36:01-05:00] William Davis Thanks, Francis. Im just doing my job to the best of my ability. But its always great to hear compliments.
+[2017-06-02T09:38:00-05:00] Francis Ham TB_Itinerary_Detailed.pdf
+[2017-06-02T09:42:00-05:00] William Davis This looks great, thanks Francis!
+[2017-06-02T09:58:00-05:00] Francis Ham Lets make it happen!
+[2017-06-02T10:01:00-05:00] William Davis About $50 for a decent one.
+[2017-06-02T10:02:00-05:00] Francis Ham By the way, have you heard of Stranger Things? Its another Netflix original that I loved.
+[2017-06-02T10:02:03-05:00] Francis Ham Hey William, have you seen The Crown? Just finished it and loved it.
+[2017-06-02T10:03:01-05:00] William Davis No, I havent seen it. Whats the premise?
+[2017-06-02T10:05:02-05:00] Francis Ham Its a Netflix original about Queen Elizabeth IIs reign. The acting and production value is amazing!
+[2017-06-02T10:05:16-05:00] William Davis Good morning Francis, what specific aspects of the publicity event should each department be responsible for?
+[2017-06-02T10:05:42-05:00] Francis Ham Hey Will! Great question! Ive been thinking about this a lot lately.
+[2017-06-02T10:07:00-05:00] William Davis Sounds interesting. Ill have to check it out.
+[2017-06-02T10:07:03-05:00] Francis Ham I think marketing should handle all the promotional material and advertising.
+[2017-06-02T10:08:02-05:00] Francis Ham Sales should be responsible for generating leads and driving attendance.
+[2017-06-02T10:08:48-05:00] Francis Ham And operations should focus on ensuring smooth logistics and setup.
+[2017-06-02T10:09:27-05:00] William Davis Interesting, what do you think about HRs role in recruiting volunteers? And should finance be responsible for tracking event expenses?
+[2017-06-02T10:10:12-05:00] Francis Ham Ah good catch Will! Yes, HR should definitely work on recruiting volunteers and finance should track event expenses to ensure we stay within budget.
+[2017-06-02T10:11:00-05:00] William Davis Sounds good to me. Can we set up a meeting to discuss all the details?
+[2017-06-02T10:11:29-05:00] Francis Ham Sure thing Will! How about next Wednesday at 10am?
+[2017-06-02T10:12:01-05:00] Francis Ham Definitely worth the watch! Have you got any recommendations for a new show?
+[2017-06-02T10:12:03-05:00] William Davis That works for me, see you then!
+[2017-06-02T10:13:00-05:00] William Davis thumbsup
+[2017-06-02T10:13:01-05:00] Francis Ham thumbsup
+[2017-06-02T10:14:03-05:00] William Davis I just watched the first season of Westworld. Its a sci-fi show about artificial intelligence. Really enjoyed it.
+[2017-06-02T10:16:04-05:00] Francis Ham Hmm, not usually a fan of sci-fi, but Ill give it a try!
+[2017-06-02T10:23:01-05:00] William Davis Yes, Ive watched it. Great show. The third season comes out soon. #excited
+[2017-06-02T10:25:04-05:00] Francis Ham Yassss! Cant wait! #bingewatch
+[2017-06-02T10:29:00-05:00] William Davis Definitely going to have to clear my schedule for that weekend! #popcorn
+[2017-06-02T10:36:02-05:00] Francis Ham Haha same here! #snacks
+[2017-06-02T10:45:01-05:00] Francis Ham Anyway, gotta get back to work. Thanks for chatting with me about TV! #worklife
+[2017-06-02T10:48:03-05:00] William Davis No problem, always happy to talk about good shows. Have a great day!
+[2017-06-02T11:00:00-05:00] William Davis Of course! He loves hiking. What about you? You bringing your girlfriend?
+[2017-06-02T11:03:00-05:00] Francis Ham Not much bro, just grinding. Whats on your mind?
+[2017-06-02T11:03:00-05:00] William Davis Hey Francis, yesterday I went to this new restaurant called Fusion. I have never tasted such amazing food before!
+[2017-06-02T11:03:00-05:00] William Davis Hey Francis! Whats up man?
+[2017-06-02T11:04:00-05:00] William Davis Thats a great idea! How does next Thursday at 7 pm sound to you?
+[2017-06-02T11:04:00-05:00] Francis Ham For real? Im down! Gotta get away from these emails lol.
+[2017-06-02T11:13:53-05:00] Francis Ham BangBang. Cant wait for that new coffee machine!
+[2017-06-02T11:16:21-05:00] William Davis Its going to be great! Be there in five.
+[2017-06-02T11:28:00-05:00] Francis Ham Sounds reasonable, go ahead and order one.
+[2017-06-02T11:29:00-05:00] William Davis Great, Ill order it now.
+[2017-06-02T11:36:00-05:00] Francis Ham oh really?? Spill! What should I order when I go? Lol
+[2017-06-02T11:37:00-05:00] William Davis I was thinking of hitting up the mountains this weekend. Want to join me for a hiking trip?
+[2017-06-02T11:38:01-05:00] William Davis You should definitely try their garlic naan bread and chicken tikka masala. So delicious!
+[2017-06-02T11:39:00-05:00] Francis Ham 🤤 That sounds tasty! We should go there together one of these days.
+[2017-06-02T11:42:00-05:00] Francis Ham That works for me! Lets make a reservation for two. Thanks for the recommendation, Will. 👌
+[2017-06-02T11:43:00-05:00] William Davis Haha yeah, we need a break. You good to go on Saturday?
+[2017-06-02T11:43:03-05:00] William Davis Sure thing! Ill make the reservation and send you the confirmation. 💁‍♂️
+[2017-06-02T11:46:00-05:00] Francis Ham Ill make it work. What time we have to be there?
+[2017-06-02T11:49:00-05:00] William Davis I was thinking we could start around 8 in the morning. Should be plenty of time to hike up and back before it gets too hot.
+[2017-06-02T11:52:00-05:00] Francis Ham Sounds perfect. You bringing your dog?
+[2017-06-02T11:58:00-05:00] Francis Ham Nah, shes out of town this weekend. But I might invite some friends if thats cool with you.
+[2017-06-02T12:01:00-05:00] William Davis Yeah, the more the merrier! Just let me know how many people to expect so I can pack enough snacks for everyone :)
+[2017-06-02T12:04:00-05:00] Francis Ham Awesome, will do. Im already looking forward to this trip.
+[2017-06-02T12:07:00-05:00] William Davis Me too man, me too. exploding_head
+[2017-06-02T14:01:00-05:00] Francis Ham Thanks for letting me know about the coffee maker. Anything else to report?
+[2017-06-02T14:02:00-05:00] William Davis No, thats all for now. Thanks, Francis.
+[2017-06-02T14:02:00-05:00] William Davis Hey Francis, I just made the reservation for Thursday at 7 pm. Let me know if there are any changes! 😁
+[2017-06-02T14:21:00-05:00] Francis Ham Got it, Will! Looking forward to it. 💃
+[2017-06-02T14:32:11-05:00] Francis Ham Hey man, sorry I missed you earlier. I stepped out to grab lunch. Are you still around?
+[2017-06-02T14:33:02-05:00] William Davis No worries. Im still here, but Im heading to a meeting soon. Can we set it up tomorrow instead?
+[2017-06-02T14:33:04-05:00] Francis Ham Sure thing. Tomorrow works for me. What time were you thinking?
+[2017-06-02T14:34:01-05:00] William Davis How about 9 AM? That way we can start the day with some fresh coffee.
+[2017-06-02T14:34:57-05:00] Francis Ham Sounds perfect. 9AM it is!
+[2017-06-02T16:01:00-05:00] Francis Ham Yo William, is it cool if my friend Megan comes with us tomorrow?
+[2017-06-02T16:18:00-05:00] William Davis For sure! The more the merrier. Just let me know what time you guys will get there, so we can start the hike together.
+[2017-06-02T16:21:00-05:00] Francis Ham Cool, itll probably be around 8:30, since its a bit of a drive. Is that okay?
+[2017-06-02T16:24:00-05:00] William Davis Thats perfect. And Im bringing some sandwiches for us, to munch on during the hike, so you dont have to worry about breakfast.
+[2017-06-02T16:27:00-05:00] Francis Ham Dope, I owe you one man. thumbsup
+[2017-06-02T20:27:13-05:00] William Davis Sir, we have a problem. Some of our Indian workers are complaining about the working conditions. They are raising concerns about safety and workload.
+[2017-06-02T20:32:02-05:00] Francis Ham What do you suggest we do about it, William?
+[2017-06-02T20:36:46-05:00] William Davis We must separate them from the rest of the workers so that their complaints and ideas do not spread to others. This would help us contain the situation.
+[2017-06-02T20:41:12-05:00] Francis Ham Agreed. Lets have them move into separate housing.
+[2017-06-02T22:15:32-05:00] William Davis Sir, we need a concrete excuse to move them into different housing. Do you have any ideas?
+[2017-06-02T23:02:04-05:00] Francis Ham Theft always seems to be the easiest excuse, make sure to let HR know.

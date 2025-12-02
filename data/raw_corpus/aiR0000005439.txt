@@ -1,0 +1,23 @@
+﻿Lillian Hayes | Isla West:
+[2017-06-10T10:01:01-05:00] Isla West Hi Lillian, did you have a chance to review the safety guidelines I sent you yesterday?
+[2017-06-10T10:02:03-05:00] Lillian Hayes Hey Isla, not yet. Ill check them out today. Is there anything I should keep in mind?
+[2017-06-10T10:03:02-05:00] Isla West Yes, I think the guidelines can use more visuals. Can you add some diagrams to help the workers understand better?
+[2017-06-10T10:04:17-05:00] Lillian Hayes Ill do that for sure. Im glad you said something. Safety first, amirite?
+[2017-06-10T10:05:33-05:00] Isla West Exactly! Anyway, we should have a training session for the workers next week. Would Tuesday work for you?
+[2017-06-10T10:06:41-05:00] Lillian Hayes Tuesday is good for me. What time should we start?
+[2017-06-10T10:07:02-05:00] Isla West 9 am would be ideal. We can provide breakfast too.
+[2017-06-10T10:08:18-05:00] Lillian Hayes Breakfast AND safety training? Sounds like a win-win. Ill be there, Isla.
+[2017-06-10T10:09:33-05:00] Isla West Haha, glad to hear it. Ill send out a calendar invite.
+[2017-06-10T10:10:02-05:00] Lillian Hayes Cool. Im going to work on the guidelines now. Talk to you soon!
+[2017-06-10T10:11:03-05:00] Isla West Sounds good, Lillian. Thank you!
+[2017-06-10T10:16:00-05:00] Lillian Hayes Isla, how about we add a little quiz after the training session? That way we can ensure workers have retained the information.
+[2017-06-10T10:18:00-05:00] Isla West Thats a great idea. Id like to add some questions about our companys safety record too.
+[2017-06-10T10:18:52-05:00] Lillian Hayes Nice, Ill work on the quiz questions then.
+[2017-06-10T10:19:03-05:00] Isla West Perfect. Looking forward to this session.
+[2017-06-10T10:19:53-05:00] Lillian Hayes Me too!
+[2017-06-10T11:45:09-05:00] Lillian Hayes Hey Isla, I finished the guidelines and added the diagrams you asked for.
+[2017-06-10T11:46:01-05:00] Isla West Great, Lillian. Thank you. Ill give them a look. Honestly, youre the best collaborator Ive ever worked with.
+[2017-06-10T11:47:07-05:00] Lillian Hayes Youre making me blush, Isla! Im just doing my job. But thank you.
+[2017-06-10T11:48:02-05:00] Lillian Hayes Definitely. Enjoy your weekend, Isla!
+[2017-06-10T11:48:03-05:00] Isla West Well, I appreciate it. Ill catch you at the session next week.
+[2017-06-10T11:48:42-05:00] Isla West Will do, you too!
