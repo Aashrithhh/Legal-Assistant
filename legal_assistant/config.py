@@ -18,6 +18,9 @@ class Settings:
     cohere_api_key: str | None
     cohere_embedding_model: str | None
 
+    # ✅ NEW: SQL Server connection string
+    sqlserver_conn_str: str | None = None
+
     @classmethod
     def from_env(cls) -> "Settings":
         # Read from the .env file (which we already loaded above)
@@ -28,6 +31,9 @@ class Settings:
 
         cohere_api_key = os.getenv("COHERE_API_KEY")
         cohere_embedding_model = os.getenv("COHERE_EMBEDDING_MODEL")
+
+        # ✅ NEW: read SQL Server conn string
+        sqlserver_conn_str = os.getenv("SQLSERVER_CONN_STR")
 
         # For now, we require Cohere for embeddings
         if not cohere_api_key:
@@ -42,6 +48,7 @@ class Settings:
             chat_model=chat_model,
             cohere_api_key=cohere_api_key,
             cohere_embedding_model=cohere_embedding_model,
+            sqlserver_conn_str=sqlserver_conn_str,  # ✅ pass it through
         )
 
 
