@@ -1,75 +1,58 @@
 from pathlib import Path
-from typing import List, Tuple
+from typing import List, Tuple, Dict, Any
 
 from legal_assistant.llm.embeddings_client import EmbeddingClient
 from legal_assistant.retrieval.vector_store import VectorStore
 from legal_assistant.utils.chunking import chunk_text
-from legal_assistant.utils.pdf_extraction import extract_text_from_pdf
-from legal_assistant.utils.eml_extraction import extract_eml_from_bytes
-
-
-def _extract_text_from_pdf_bytes(filename: str, data: bytes) -> str:
-    tmp_path = Path(f"./tmp_{filename}")
-    tmp_path.write_bytes(data)
-    try:
-        return extract_text_from_pdf(tmp_path)
-    finally:
-        try:
-            tmp_path.unlink()
-        except OSError:
-            pass
-
-
-def _extract_text_from_txt_bytes(data: bytes) -> str:
-    try:
-        return data.decode("utf-8", errors="ignore")
-    except Exception:
-        return ""
+from legal_assistant.utils.universal_extraction import extract_text_from_upload, ExtractedText
 
 
 def ingest_uploaded_files_into_vector_store(
     files: List[Tuple[str, bytes]],
     db_path: str = "data/index/embeddings.db",
     max_words: int = 200,
-    overlap: int = 50,
-) -> None:
+    overlap: int = 40,
+) -> Dict[str, Any]:
+    """
+    Ingest uploaded files into the vector store using universal extraction.
+    
+    Returns:
+        {
+            "ingested": [{"filename": str, "chunks": int, "source_type": str}],
+            "failed": [{"filename": str, "reason": str}]
+        }
+    """
     embed_client = EmbeddingClient()
     store = VectorStore(db_path=db_path)
 
+    ingested: List[Dict[str, Any]] = []
+    failed: List[Dict[str, str]] = []
+
     for filename, data in files:
-        ext = Path(filename).suffix.lower()
-        text = ""
-        source_type = ""
-
-        if ext == ".pdf":
-            text = _extract_text_from_pdf_bytes(filename, data)
-            source_type = "pdf"
-        elif ext == ".txt":
-            text = _extract_text_from_txt_bytes(data)
-            source_type = "txt"
-        elif ext == ".eml":
-            eml_data = extract_eml_from_bytes(data)
-            if not eml_data:
-                print(f"[WARN] No usable content in uploaded email: {filename}")
-                continue
-            header = (
-                f"From: {eml_data['from']}\n"
-                f"To: {eml_data['to']}\n"
-                f"Subject: {eml_data['subject']}\n"
-                f"Date: {eml_data['date']}\n\n"
-            )
-            text = header + eml_data["body"]
-            source_type = "eml"
-        else:
-            print(f"[WARN] Unsupported file type: {filename}")
+        # Use universal extraction
+        extracted: ExtractedText = extract_text_from_upload(filename, data)
+        
+        # Check for extraction errors
+        if extracted.error:
+            print(f"[WARN] Extraction error for {filename}: {extracted.error}")
+            failed.append({"filename": filename, "reason": extracted.error})
             continue
-
-        if not text.strip():
+        
+        text = extracted.text.strip()
+        if not text:
             print(f"[WARN] No text extracted from {filename}")
+            failed.append({"filename": filename, "reason": "empty extracted text"})
             continue
 
+        # Chunk the text
         chunks = chunk_text(text, max_words=max_words, overlap=overlap)
+        
+        if not chunks:
+            print(f"[WARN] No chunks created for {filename}")
+            failed.append({"filename": filename, "reason": "no chunks created"})
+            continue
 
+        # Build IDs and metadata
         ids = []
         metadatas = []
         stem = Path(filename).stem
@@ -79,9 +62,11 @@ def ingest_uploaded_files_into_vector_store(
             metadatas.append({
                 "source_file": filename,
                 "chunk_index": i,
-                "source_type": source_type,
+                "source_type": extracted.source_type,
+                **extracted.meta,  # Include extraction metadata
             })
 
+        # Embed and store
         embeddings = embed_client.embed_texts(chunks)
         store.add_embeddings(
             ids=ids,
@@ -90,4 +75,11 @@ def ingest_uploaded_files_into_vector_store(
             metadatas=metadatas,
         )
 
-        print(f"[INFO] Ingested {filename} ({len(chunks)} chunks)")
+        print(f"[INFO] Ingested {filename} ({len(chunks)} chunks, type: {extracted.source_type})")
+        ingested.append({
+            "filename": filename,
+            "chunks": len(chunks),
+            "source_type": extracted.source_type,
+        })
+
+    return {"ingested": ingested, "failed": failed}

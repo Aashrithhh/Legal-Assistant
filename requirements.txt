@@ -3,3 +3,18 @@ cohere
 chromadb
 pypdf
 tqdm
+
+# Universal extraction dependencies
+# Document extraction
+python-docx
+python-pptx
+beautifulsoup4
+lxml
+
+# Audio transcription
+openai-whisper
+
+# Note: Audio transcription also requires ffmpeg to be installed system-wide
+# Windows: winget install ffmpeg
+# Mac: brew install ffmpeg
+# Linux: apt-get install ffmpeg

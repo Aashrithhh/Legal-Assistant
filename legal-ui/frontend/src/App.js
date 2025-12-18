@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useCallback } from "react";
-import ReactMarkdown from "react-markdown";
+import ReactMarkdown from 'react-markdown';
 
-const API_BASE = "http://127.0.0.1:8000";
+// Updated: 2025-12-17 - Backend on port 8001
+const API_BASE = "http://127.0.0.1:8001";
 
 function riskBadgeColor(risk) {
   const r = (risk || "").toLowerCase();
@@ -28,6 +29,13 @@ export default function App() {
   });
 
   const [result, setResult] = useState(null);
+  const [rightInput, setRightInput] = useState("");
+  const [rightResponse, setRightResponse] = useState("");
+
+  // Q&A History state (frontend-only, lost on page refresh)
+  const [askQuestion, setAskQuestion] = useState("");
+  const [isAskLoading, setIsAskLoading] = useState(false);
+  const [qaHistory, setQaHistory] = useState([]);
 
   const handleInputChange = (field, value) => {
     setFormData((prev) => ({ ...prev, [field]: value }));
@@ -113,6 +121,9 @@ export default function App() {
       }
 
       const data = await res.json();
+      console.log("=== API RESPONSE ===", data);
+      console.log("Sources:", data.sources);
+      console.log("Issues count:", data.issues?.length);
       setResult(data);
       setActiveTab("analysis");
 
@@ -125,6 +136,61 @@ export default function App() {
     } finally {
       setIsLoading(false);
     }
+  };
+
+  const handleAskQuestion = async () => {
+    const trimmedQuestion = askQuestion.trim();
+    if (!trimmedQuestion) return;
+
+    try {
+      setIsAskLoading(true);
+
+      // Reuse existing ask logic
+      const payload = {
+        question: trimmedQuestion,
+        history: qaHistory.map((item) => ({
+          role: "user",
+          content: item.question,
+        })),
+      };
+
+      const res = await fetch(`${API_BASE}/api/ask`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+
+      if (!res.ok) {
+        console.error("Ask endpoint error:", res.status);
+        return;
+      }
+
+      const data = await res.json();
+      const answerText = data.answer || "";
+
+      // Add to Q&A history
+      setQaHistory((prev) => [
+        ...prev,
+        {
+          id: prev.length + 1,
+          question: trimmedQuestion,
+          answer: answerText,
+          time: new Date().toLocaleString(),
+        },
+      ]);
+
+      setAskQuestion("");
+    } catch (e) {
+      console.error("Error asking question:", e);
+    } finally {
+      setIsAskLoading(false);
+    }
+  };
+
+  const handleClearAskSession = () => {
+    setAskQuestion("");
+    setQaHistory([]);
+    setIsAskLoading(false);
   };
 
   return (
@@ -290,7 +356,169 @@ export default function App() {
       <div style={{ flex: 1, overflowY: "auto", padding: 20 }}>
         <h2>AI Response</h2>
 
-        {!result && !isLoading && (
+        {/* New: Right-panel interactive input targeted to Claude Haiku */}
+        <div style={{ marginBottom: 12 }}>
+          <textarea
+            placeholder="Type instructions for Claude Haiku here..."
+            value={rightInput}
+            onChange={(e) => setRightInput(e.target.value)}
+            style={{ width: "100%", height: 100, padding: 10, border: "1px solid #ccc" }}
+          />
+          <div style={{ display: "flex", gap: 8, marginTop: 8 }}>
+            <button
+              onClick={async () => {
+                if (!rightInput.trim()) return;
+                try {
+                  setIsLoading(true);
+                  setRightResponse("");
+                  const fd = new FormData();
+                  // Use anthro pic provider
+                  fd.append("provider", "anthropic");
+                  fd.append("prompt", rightInput);
+
+                  const res = await fetch(`${API_BASE}/api/chat`, {
+                    method: "POST",
+                    body: fd,
+                  });
+                  if (!res.ok) {
+                    const txt = await res.text();
+                    setRightResponse(`Error: ${res.status} ${txt}`);
+                  } else {
+                    const j = await res.json();
+                    setRightResponse(j.text || "");
+                  }
+                } catch (e) {
+                  setRightResponse("Error calling server.");
+                } finally {
+                  setIsLoading(false);
+                }
+              }}
+              style={{ padding: "8px 14px", background: "#0ea5e9", color: "white", border: "none", borderRadius: 4 }}
+            >
+              Send to Claude Haiku
+            </button>
+          </div>
+        </div>
+
+        {rightResponse && (
+          <div style={{ marginBottom: 18 }}>
+            <h4>Claude Haiku Response</h4>
+            <div style={{ background: "#fff", padding: 12, borderRadius: 6 }}>
+              <ReactMarkdown>{rightResponse}</ReactMarkdown>
+            </div>
+          </div>
+        )}
+
+        {/* Q&A History Section */}
+        <div
+          style={{
+            marginTop: 30,
+            marginBottom: 20,
+            background: "#fff",
+            borderRadius: 12,
+            overflow: "hidden",
+            boxShadow: "0 2px 8px rgba(0,0,0,0.1)",
+          }}
+        >
+          {/* Q&A Header */}
+          <div
+            style={{
+              background: "#1e3a8a",
+              color: "white",
+              padding: "12px 16px",
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "center",
+            }}
+          >
+            <h3 style={{ margin: 0, fontSize: 16 }}>Ask a Question</h3>
+            <button
+              onClick={handleClearAskSession}
+              style={{
+                border: "none",
+                background: "rgba(255,255,255,0.1)",
+                color: "#e5e7eb",
+                borderRadius: 999,
+                padding: "4px 10px",
+                fontSize: 12,
+                cursor: "pointer",
+              }}
+            >
+              Clear session
+            </button>
+          </div>
+
+          {/* Input Section */}
+          <div style={{ padding: 16 }}>
+            <textarea
+              placeholder="Type your question here..."
+              value={askQuestion}
+              onChange={(e) => setAskQuestion(e.target.value)}
+              style={{
+                width: "100%",
+                height: 80,
+                padding: 10,
+                border: "1px solid #ccc",
+                borderRadius: 6,
+                fontFamily: "inherit",
+                fontSize: 14,
+                resize: "vertical",
+              }}
+            />
+            <button
+              onClick={handleAskQuestion}
+              disabled={isAskLoading}
+              style={{
+                marginTop: 10,
+                width: "100%",
+                padding: 10,
+                background: isAskLoading ? "#999" : "#0ea5e9",
+                color: "white",
+                border: "none",
+                borderRadius: 6,
+                cursor: isAskLoading ? "not-allowed" : "pointer",
+                fontSize: 14,
+                fontWeight: 500,
+              }}
+            >
+              {isAskLoading ? "Thinking…" : "Ask"}
+            </button>
+          </div>
+
+          {/* Q&A History */}
+          <div style={{ borderTop: "1px solid #e5e7eb", maxHeight: 400, overflowY: "auto" }}>
+            {qaHistory.length === 0 ? (
+              <p style={{ padding: 16, color: "#999", fontStyle: "italic", margin: 0 }}>
+                No questions asked yet in this session.
+              </p>
+            ) : (
+              <div>
+                {[...qaHistory].reverse().map((item) => (
+                  <div
+                    key={item.id}
+                    style={{
+                      padding: 12,
+                      borderBottom: "1px solid #f0f0f0",
+                      background: item.id % 2 === 0 ? "#f9f9f9" : "#fff",
+                    }}
+                  >
+                    <p style={{ margin: "0 0 4px 0", fontSize: 11, color: "#666" }}>
+                      {item.time}
+                    </p>
+                    <p style={{ margin: "4px 0", fontSize: 13, fontWeight: 600 }}>
+                      Q: {item.question}
+                    </p>
+                    <p style={{ margin: "4px 0 0 0", fontSize: 13, lineHeight: 1.5 }}>
+                      A: {item.answer}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* Claude Haiku Input (above result section) */}
           <p style={{ color: "#777", fontStyle: "italic" }}>
             Fill the form and click Generate Response.
           </p>
@@ -336,7 +564,7 @@ export default function App() {
                   </div>
                   <p style={{ fontSize: 13 }}>{issue.description}</p>
                   {issue.citations && (
-                    <p style={{ fontSize: 11, color: "#444" }}>
+                    <p style={{ fontSize: 11, color: "#444", marginTop: 6 }}>
                       <strong>Citations:</strong> {issue.citations}
                     </p>
                   )}
@@ -344,6 +572,19 @@ export default function App() {
               ))
             ) : (
               <p style={{ color: "#777" }}>No issues found.</p>
+            )}
+
+            {result.sources && result.sources.length > 0 && (
+              <div style={{ marginTop: 18 }}>
+                <h4 style={{ marginBottom: 6 }}>Sources used</h4>
+                <ul style={{ paddingLeft: 16, margin: 0 }}>
+                  {result.sources.map((src, i) => (
+                    <li key={i} style={{ fontSize: 12, color: "#334155" }}>
+                      {src.file} (score {src.score.toFixed(4)})
+                    </li>
+                  ))}
+                </ul>
+              </div>
             )}
           </div>
         )}

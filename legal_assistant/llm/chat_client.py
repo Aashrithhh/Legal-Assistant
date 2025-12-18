@@ -12,14 +12,16 @@ class ChatClient:
         settings = get_settings()
 
         if not settings.openai_api_key:
-            raise RuntimeError("OPENAI_API_KEY (Azure key) is not set in .env")
+            raise RuntimeError("OPENAI_API_KEY is not set in .env")
         if not settings.openai_base_url:
-            raise RuntimeError("OPENAI_BASE_URL (Azure endpoint) is not set in .env")
+            raise RuntimeError("OPENAI_BASE_URL is not set in .env")
+        if not settings.openai_api_version:
+            raise RuntimeError("OPENAI_API_VERSION is not set in .env")
 
         self.client = AzureOpenAI(
             api_key=settings.openai_api_key,
             azure_endpoint=settings.openai_base_url,
-            api_version=settings.openai_api_version or "2025-01-01-preview",
+            api_version=settings.openai_api_version,
         )
         self.model = settings.chat_model
 

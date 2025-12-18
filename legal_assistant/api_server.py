@@ -9,6 +9,11 @@ from rag import analyze_legal_case
 from legal_assistant.retrieval.ingest_uploaded import (
     ingest_uploaded_files_into_vector_store,
 )
+from legal_assistant.utils.universal_extraction import (
+    extract_text_from_upload,
+    ExtractedText,
+)
+from legal_assistant.llm import ModelSelector
 
 app = FastAPI()
 
@@ -23,6 +28,16 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Global model selector instance used by lightweight chat endpoint below
+_selector: ModelSelector | None = None
+
+
+def get_selector() -> ModelSelector:
+    global _selector
+    if _selector is None:
+        _selector = ModelSelector()
+    return _selector
 
 
 @app.post("/api/analyze-case")
@@ -67,9 +82,7 @@ async def analyze_case_endpoint(
     }
 
 
-# =========================
 #  Relevance Check Helpers
-# =========================
 
 def simple_relevance_classification(doc_text: str, criteria: str) -> tuple[str, str]:
     """
@@ -140,13 +153,20 @@ async def relevance_check_endpoint(
                 )
                 continue
 
-            # Basic text extraction for now.
-            try:
-                text = content_bytes.decode("utf-8", errors="ignore")
-            except Exception:
-                text = ""
+            # Use universal extraction for all file types
+            extracted: ExtractedText = extract_text_from_upload(f.filename, content_bytes)
+            
+            if extracted.error:
+                failed.append(
+                    {
+                        "name": f.filename,
+                        "reason": f"Extraction failed: {extracted.error}",
+                    }
+                )
+                continue
 
-            if not text.strip():
+            text = extracted.text.strip()
+            if not text:
                 failed.append(
                     {
                         "name": f.filename,
@@ -188,3 +208,35 @@ async def relevance_check_endpoint(
         "nonRelevant": non_relevant,
         "failed": failed,
     }
+
+
+@app.post("/api/chat")
+async def chat_endpoint(
+    provider: str = Form("openai"),
+    system_prompt: str = Form(""),
+    user_prompt: str = Form(""),
+    prompt: str = Form(""),
+    model: str | None = Form(None),
+):
+    """Lightweight chat endpoint that routes to configured model providers.
+
+    Form fields (all optional):
+      - provider: 'openai' or 'anthropic'
+      - system_prompt, user_prompt: for chat-style OpenAI calls
+      - prompt: free-form prompt for Anthropic or single-turn requests
+      - model: optional model override
+    """
+
+    selector = get_selector()
+
+    try:
+        out = selector.generate(
+            provider=provider,
+            system_prompt=system_prompt,
+            user_prompt=user_prompt,
+            prompt=prompt,
+            model=model,
+        )
+        return {"text": out}
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc))

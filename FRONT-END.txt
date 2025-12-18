@@ -6,3 +6,21 @@
 	cd "C:\Users\AashrithReddyVootkur\Documents\legal-assistant"
 	.\.venv\Scripts\Activate.ps1 
 	python -m uvicorn api_server:app --reload           
+
+
+	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
+	OpenAI: GPT-5.1-Codex-Max
+	2025-01-01-preview
+
+Latest front-end
+
+cd C:\Users\AashrithReddyVootkur\Documents\legal-assistant
+$env:Path = [System.Environment]::GetEnvironmentVariable('Path','Machine') + ';' + [System.Environment]::GetEnvironmentVariable('Path','User')
+.\.venv\Scripts\python.exe -m uvicorn api_server:app --host 127.0.0.1 --port 8001 --reload
+
+
+latest back-end
+
+cd C:\Users\AashrithReddyVootkur\Documents\legal-assistant
+$env:Path = [System.Environment]::GetEnvironmentVariable('Path','Machine') + ';' + [System.Environment]::GetEnvironmentVariable('Path','User')
+.\.venv\Scripts\python.exe -m uvicorn api_server:app --host 127.0.0.1 --port 8001 --reload

@@ -1,21 +1,27 @@
 # api_server.py
 import json
-from typing import List, Tuple
+from typing import List, Tuple, Dict
 # from openai import OpenAI
 
 from fastapi import FastAPI, UploadFile, File, Form, HTTPException
+from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 
-from rag_answer import analyze_legal_case
+from rag_answer import analyze_legal_case, answer_question
 from legal_assistant.retrieval.ingest_uploaded import (
     ingest_uploaded_files_into_vector_store,
+)
+from legal_assistant.utils.universal_extraction import (
+    extract_text_from_upload,
+    ExtractedText,
 )
 from legal_assistant.relevance_logger import (
     log_relevance_decision,
     log_llm_error,
 )
+from legal_assistant.llm import ModelSelector
 
-# --- Azure OpenAI setup (lazy) ---
+# --- OpenAI client setup (lazy)
 import os
 from openai import AzureOpenAI
 from legal_assistant.config import get_settings
@@ -25,6 +31,22 @@ from legal_assistant.db import get_engine
 from sqlalchemy import text as sql_text
 
 app = FastAPI()
+
+
+# Simple selector instance for lightweight chat usage
+_selector: ModelSelector | None = None
+
+
+def get_selector() -> ModelSelector:
+    global _selector
+    if _selector is None:
+        _selector = ModelSelector()
+    return _selector
+
+
+class QARequest(BaseModel):
+    question: str
+    history: List[Dict[str, str]] = []  # [{role: "user" | "assistant", content: "..."}]
 
 
 def get_azure_client():
@@ -76,12 +98,31 @@ def get_azure_client():
     return get_azure_client._client
 
 
+def require_azure_client_and_settings():
+    """Shared helper to fetch the Azure client and settings with clear errors."""
+    try:
+        client = get_azure_client()
+        settings = get_settings()
+        env_model = os.getenv("OPENAI_CHAT_MODEL")
+        model_name = env_model or getattr(settings, "OPENAI_CHAT_MODEL", None) or getattr(settings, "chat_model", None)
+        if not model_name:
+            raise RuntimeError("OPENAI_CHAT_MODEL is not configured")
+        return client, model_name
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=f"Azure OpenAI configuration error: {str(e)}",
+        )
+
+
 # Allow your React app (localhost:3000) to call this API
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
         "http://127.0.0.1:3000",
+        "http://localhost:3001",
+        "http://127.0.0.1:3001",
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -131,10 +172,22 @@ async def analyze_case_endpoint(
     filenames = [name for name, _ in file_payloads]
     result = analyze_legal_case(metadata=meta, filenames=filenames)
 
-    # 5) Return what the React UI expects
+    # Debug logging
+    sources = result.get("sources", [])
+    print(f"[DEBUG] Total sources: {len(sources)}")
+    audio_sources = [s for s in sources if s.get('file', '').endswith(('.mp3', '.wav', '.m4a'))]
+    print(f"[DEBUG] Audio sources: {len(audio_sources)}")
+    if audio_sources:
+        for a in audio_sources[:3]:
+            print(f"[DEBUG] Audio: {a.get('file')} (score: {a.get('score', 0):.4f})")
+    else:
+        print("[DEBUG] NO AUDIO SOURCES IN RETRIEVAL RESULTS!")
+    
+    # 5) Return what the React UI expects (including sources for citation tracking)
     return {
         "analysis": result.get("analysis", ""),
         "issues": result.get("issues", []),
+        "sources": result.get("sources", []),
     }
 
 
@@ -177,15 +230,7 @@ async def relevance_check_endpoint(
         raise HTTPException(status_code=400, detail="Criteria is required (case summary)")
 
     # Ensure Azure client + settings are available
-    try:
-        client = get_azure_client()
-        settings = get_settings()
-        model_name = getattr(settings, "OPENAI_CHAT_MODEL", "gpt-5-chat")
-    except Exception as e:
-        raise HTTPException(
-            status_code=500,
-            detail=f"Azure OpenAI configuration error: {str(e)}",
-        )
+    client, model_name = require_azure_client_and_settings()
 
     highly_relevant = []
     partially_relevant = []
@@ -196,11 +241,11 @@ async def relevance_check_endpoint(
     for upload in files:
         raw_bytes = await upload.read()
 
-        # Try to decode as UTF-8 text (works for your .txt email files)
-        try:
-            text = raw_bytes.decode("utf-8", errors="ignore")
-        except Exception:
-            reason = "Unable to decode file as text (unsupported encoding or binary format)."
+        # Use universal extraction for all file types
+        extracted: ExtractedText = extract_text_from_upload(upload.filename, raw_bytes)
+        
+        if extracted.error:
+            reason = f"Extraction failed: {extracted.error}"
             failed_docs.append(
                 {
                     "name": upload.filename,
@@ -230,11 +275,11 @@ async def relevance_check_endpoint(
                         },
                     )
             except Exception as db_err:
-                print(f"[WARN] Failed to log FAILED decode for {upload.filename}: {db_err}")
+                print(f"[WARN] Failed to log extraction error for {upload.filename}: {db_err}")
 
             continue
 
-        trimmed = text.strip()
+        trimmed = extracted.text.strip()
         if not trimmed:
             reason = "File appears to be empty or contains no readable text."
             failed_docs.append(
@@ -409,3 +454,147 @@ Return ONLY a JSON object with the following fields:
         "notRelevant": not_relevant,
         "failed": failed_docs,
     }
+
+
+# -------------------------------------------------------------------
+# NEW endpoint: ask questions over uploaded files
+# -------------------------------------------------------------------
+@app.post("/api/ask-question")
+async def ask_question_endpoint(
+    question: str = Form(...),
+    metadata: str = Form(None),
+    files: List[UploadFile] = File(...),
+):
+    """
+    Given a natural-language question and uploaded files, return an LLM answer.
+
+    Reuses the same file handling pattern as the relevance endpoint:
+      - decode uploaded files as UTF-8 text
+      - skip empty/unreadable files
+      - truncate each document to keep prompt size manageable
+    """
+    q = (question or "").strip()
+    if not q:
+        raise HTTPException(status_code=400, detail="Question is required")
+
+    meta_obj = None
+    if metadata:
+        try:
+            meta_obj = json.loads(metadata)
+        except json.JSONDecodeError:
+            raise HTTPException(status_code=400, detail="Invalid metadata JSON")
+
+    client, model_name = require_azure_client_and_settings()
+
+    doc_chunks: List[str] = []
+    failed_docs: List[dict] = []
+
+    for upload in files:
+        raw_bytes = await upload.read()
+        
+        # Use universal extraction for all file types
+        extracted: ExtractedText = extract_text_from_upload(upload.filename, raw_bytes)
+        
+        if extracted.error:
+            failed_docs.append({"name": upload.filename, "reason": f"Extraction failed: {extracted.error}"})
+            continue
+
+        trimmed = extracted.text.strip()
+        if not trimmed:
+            failed_docs.append({"name": upload.filename, "reason": "File appears to be empty."})
+            continue
+
+        snippet = trimmed[:4000]
+        doc_chunks.append(f"File: {upload.filename}\n{snippet}")
+
+    # Cap total context to avoid overly long prompts
+    combined_docs = "\n\n".join(doc_chunks)[:16000] if doc_chunks else "No readable documents were provided."
+
+    meta_context = ""
+    if meta_obj:
+        meta_context = f"\n\nAdditional context from metadata:\n{json.dumps(meta_obj, indent=2)}"
+
+    prompt = f"""
+You are assisting a legal analyst. Answer the user's question using ONLY the provided document excerpts. If the answer is uncertain, say so.
+
+User question:
+\"\"\"{q}\"\"\"
+
+Document excerpts:
+\"\"\"{combined_docs}\"\"\"{meta_context}
+"""
+
+    try:
+        completion = client.chat.completions.create(
+            model=model_name,
+            messages=[
+                {
+                    "role": "system",
+                    "content": "You are a careful legal assistant. Base answers only on provided documents and clearly note if information is missing.",
+                },
+                {"role": "user", "content": prompt},
+            ],
+        )
+
+        answer = completion.choices[0].message.content or ""
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error while answering question: {str(e)}")
+
+    return {
+        "answer": answer.strip(),
+        "failed": failed_docs,
+    }
+
+
+@app.post("/api/ask")
+async def ask_conversational_endpoint(payload: QARequest):
+    """
+    Conversational RAG endpoint.
+    Uses previous Q&A (history) to interpret the new question.
+    """
+    if not payload.question.strip():
+        raise HTTPException(status_code=400, detail="Question is required")
+
+    answer = answer_question(
+        question=payload.question,
+        history=payload.history,
+        top_k=10,
+    )
+
+    return answer
+
+
+
+@app.post("/api/chat")
+async def chat_endpoint(
+    provider: str = Form("openai"),
+    system_prompt: str = Form(""),
+    user_prompt: str = Form(""),
+    prompt: str = Form(""),
+    model: str | None = Form(None),
+):
+    """Lightweight chat endpoint that routes to configured model providers.
+
+    Expects form-encoded fields; returns JSON {"text": "..."}.
+    """
+
+    # Lazy selector (keeps previous behavior isolated)
+    global _selector
+    try:
+        if _selector is None:
+            _selector = ModelSelector()
+    except Exception:
+        # If ModelSelector creation fails, return a clear error
+        raise HTTPException(status_code=500, detail="Model selector initialization failed")
+
+    try:
+        out = _selector.generate(
+            provider=provider,
+            system_prompt=system_prompt,
+            user_prompt=user_prompt,
+            prompt=prompt,
+            model=model,
+        )
+        return {"text": out}
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc))

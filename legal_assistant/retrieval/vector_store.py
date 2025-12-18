@@ -91,9 +91,14 @@ class VectorStore:
         self,
         query_embedding: List[float],
         top_k: int = 3,
+        boost_audio: bool = True,
     ) -> List[Tuple[str, float, str, Dict[str, Any]]]:
         """
         Returns a list of (id, score, document, metadata_dict) sorted by score desc.
+        
+        If boost_audio=True (default), audio chunks are always included in results
+        with artificially boosted scores to ensure they appear in the context for citation.
+        This is critical for legal compliance as audio recordings are primary evidence.
         """
         conn = sqlite3.connect(self.db_path)
         try:
@@ -103,13 +108,34 @@ class VectorStore:
         finally:
             conn.close()
 
-        results: List[Tuple[str, float, str, Dict[str, Any]]] = []
+        audio_results: List[Tuple[str, float, str, Dict[str, Any]]] = []
+        text_results: List[Tuple[str, float, str, Dict[str, Any]]] = []
+        
         for _id, emb_json, doc, meta_json in rows:
             emb = json.loads(emb_json)
             meta = json.loads(meta_json) if meta_json else {}
             score = self._cosine_similarity(query_embedding, emb)
-            results.append((_id, score, doc, meta))
-
-        # Sort by score (descending) and return top_k
-        results.sort(key=lambda x: x[1], reverse=True)
-        return results[:top_k]
+            
+            # Check if this is an audio source
+            source_type = meta.get("source_type", "")
+            source_file = meta.get("source_file", "")
+            is_audio = (source_type == "audio" or 
+                       source_file.endswith(".mp3") or 
+                       source_file.endswith(".wav") or 
+                       source_file.endswith(".m4a"))
+            
+            if is_audio:
+                # Boost audio scores by 2x to ensure they rank higher
+                boosted_score = score * 2.0 if boost_audio else score
+                audio_results.append((_id, boosted_score, doc, meta))
+            else:
+                text_results.append((_id, score, doc, meta))
+        
+        # Sort both lists by score (descending)
+        audio_results.sort(key=lambda x: x[1], reverse=True)
+        text_results.sort(key=lambda x: x[1], reverse=True)
+        
+        # Combine: prioritize audio chunks, then fill with text chunks
+        combined = audio_results + text_results
+        
+        return combined[:top_k]
