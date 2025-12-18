@@ -415,3 +415,4 @@ def get_supported_extensions() -> dict:
         "document": list(DOCUMENT_EXTENSIONS),
         "audio": list(AUDIO_EXTENSIONS),
     }
+
